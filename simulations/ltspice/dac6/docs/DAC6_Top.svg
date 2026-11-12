@@ -1,0 +1,552 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2816" height="2256" viewBox="-48 -48 2816 2256"><rect x="-48" y="-48" width="100%" height="100%" fill="white"/>
+<path d="M224,592 L176,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,640 L176,640" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,688 L176,688" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,736 L176,736" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,784 L176,784" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,832 L176,832" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,880 L176,880" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,928 L176,928" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,976 L176,976" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,1024 L176,1024" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,592 L656,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,640 L656,640" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,688 L656,688" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,736 L656,736" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,784 L656,784" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,832 L656,832" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,880 L656,880" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,928 L656,928" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,976 L656,976" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,1024 L656,1024" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,1072 L656,1072" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,1120 L656,1120" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,1168 L656,1168" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,1216 L656,1216" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,592 L976,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,640 L976,640" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,688 L976,688" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,736 L976,736" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,784 L976,784" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,832 L976,832" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,880 L976,880" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,928 L976,928" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,976 L976,976" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,1024 L976,1024" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,1072 L976,1072" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,1120 L976,1120" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,1168 L976,1168" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,1216 L976,1216" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,1264 L976,1264" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,1312 L976,1312" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M128,1648 L128,1712" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1648,592 L1600,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1648,720 L1600,720" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1648,784 L1600,784" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1648,848 L1600,848" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1648,912 L1600,912" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2176,656 L2128,656" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2176,720 L2128,720" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2560,592 L2608,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1408,592 L1520,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1520,592 L1520,656" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1520,656 L1648,656" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2032,592 L2176,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,160 L1024,112" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,240 L1024,272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1392,160 L1392,112" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1392,240 L1392,272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1760,160 L1760,112" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1760,240 L1760,272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2176,160 L2176,112" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2176,240 L2176,272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1200,176 L1200,112" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1200,240 L1200,272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,1808 L224,1760" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,1888 L224,1920" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M832,1808 L832,1760" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M832,1888 L832,1920" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1440,1808 L1440,1760" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1440,1888 L1440,1920" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2048,1808 L2048,1760" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2048,1888 L2048,1920" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,2016 L224,1968" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,2096 L224,2128" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M832,2016 L832,1968" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M832,2096 L832,2128" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1440,2016 L1440,1968" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1440,2096 L1440,2128" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2480,1008 L2480,944" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2480,1088 L2480,1120" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2480,1248 L2480,1184" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2480,1312 L2480,1344" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="180" y="584" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">D0</text>
+<path d="M176,592 L164,584" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M176,592 L164,600" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="180" y="632" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">D1</text>
+<path d="M176,640 L164,632" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M176,640 L164,648" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="180" y="680" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">D2</text>
+<path d="M176,688 L164,680" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M176,688 L164,696" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="180" y="728" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">D3</text>
+<path d="M176,736 L164,728" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M176,736 L164,744" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="180" y="776" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">D4</text>
+<path d="M176,784 L164,776" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M176,784 L164,792" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="180" y="824" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">D5</text>
+<path d="M176,832 L164,824" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M176,832 L164,840" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="180" y="872" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">EN</text>
+<path d="M176,880 L164,872" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M176,880 L164,888" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="180" y="920" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDDL</text>
+<path d="M176,928 L164,920" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M176,928 L164,936" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="180" y="968" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDDA</text>
+<path d="M176,976 L164,968" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M176,976 L164,984" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="180" y="1016" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VSS</text>
+<path d="M176,1024 L164,1016" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M176,1024 L164,1032" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="584" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S0</text>
+<path d="M656,592 L644,584" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,592 L644,600" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="632" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S0B</text>
+<path d="M656,640 L644,632" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,640 L644,648" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="680" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S1</text>
+<path d="M656,688 L644,680" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,688 L644,696" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="728" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S1B</text>
+<path d="M656,736 L644,728" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,736 L644,744" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="776" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S2</text>
+<path d="M656,784 L644,776" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,784 L644,792" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="824" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S2B</text>
+<path d="M656,832 L644,824" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,832 L644,840" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="872" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S3</text>
+<path d="M656,880 L644,872" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,880 L644,888" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="920" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S3B</text>
+<path d="M656,928 L644,920" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,928 L644,936" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="968" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S4</text>
+<path d="M656,976 L644,968" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,976 L644,984" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="1016" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S4B</text>
+<path d="M656,1024 L644,1016" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,1024 L644,1032" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="1064" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S5</text>
+<path d="M656,1072 L644,1064" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,1072 L644,1080" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="1112" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S5B</text>
+<path d="M656,1120 L644,1112" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,1120 L644,1128" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="1160" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">E</text>
+<path d="M656,1168 L644,1160" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,1168 L644,1176" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="660" y="1208" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">EB</text>
+<path d="M656,1216 L644,1208" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M656,1216 L644,1224" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="584" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VREFL</text>
+<path d="M976,592 L964,584" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,592 L964,600" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="632" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VREFH</text>
+<path d="M976,640 L964,632" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,640 L964,648" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="680" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S0</text>
+<path d="M976,688 L964,680" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,688 L964,696" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="728" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S0B</text>
+<path d="M976,736 L964,728" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,736 L964,744" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="776" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S1</text>
+<path d="M976,784 L964,776" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,784 L964,792" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="824" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S1B</text>
+<path d="M976,832 L964,824" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,832 L964,840" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="872" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S2</text>
+<path d="M976,880 L964,872" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,880 L964,888" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="920" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S2B</text>
+<path d="M976,928 L964,920" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,928 L964,936" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="968" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S3</text>
+<path d="M976,976 L964,968" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,976 L964,984" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="1016" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S3B</text>
+<path d="M976,1024 L964,1016" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,1024 L964,1032" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="1064" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S4</text>
+<path d="M976,1072 L964,1064" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,1072 L964,1080" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="1112" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S4B</text>
+<path d="M976,1120 L964,1112" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,1120 L964,1128" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="1160" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S5</text>
+<path d="M976,1168 L964,1160" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,1168 L964,1176" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="1208" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S5B</text>
+<path d="M976,1216 L964,1208" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,1216 L964,1224" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="980" y="1256" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDDA</text>
+<path d="M976,1264 L964,1256" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M976,1264 L964,1272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M964.0,1312 L988.0,1312" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M968.0,1317 L984.0,1317" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M972.0,1322 L980.0,1322" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="132" y="1640" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VSS</text>
+<path d="M116.0,1712 L140.0,1712" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M120.0,1717 L136.0,1717" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M124.0,1722 L132.0,1722" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1604" y="584" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VREFL</text>
+<path d="M1600,592 L1588,584" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1600,592 L1588,600" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1604" y="712" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">E</text>
+<path d="M1600,720 L1588,712" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1600,720 L1588,728" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1604" y="776" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">EB</text>
+<path d="M1600,784 L1588,776" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1600,784 L1588,792" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1604" y="840" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDDA</text>
+<path d="M1600,848 L1588,840" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1600,848 L1588,856" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1588.0,912 L1612.0,912" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1592.0,917 L1608.0,917" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1596.0,922 L1604.0,922" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2132" y="648" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDDA</text>
+<path d="M2128,656 L2116,648" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2128,656 L2116,664" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2116.0,720 L2140.0,720" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2120.0,725 L2136.0,725" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2124.0,730 L2132.0,730" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2612" y="584" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">OUT</text>
+<path d="M2608,592 L2596,584" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2608,592 L2596,600" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1460" y="584" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">TAP</text>
+<path d="M1456,592 L1468,584" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1456,592 L1468,600" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2084" y="584" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">DAC_IN</text>
+<path d="M2080,592 L2092,584" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2080,592 L2092,600" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1028" y="104" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDDA</text>
+<path d="M1024,112 L1036,104" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,112 L1036,120" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1012.0,272 L1036.0,272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1016.0,277 L1032.0,277" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1020.0,282 L1028.0,282" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1396" y="104" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDDL</text>
+<path d="M1392,112 L1404,104" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1392,112 L1404,120" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1380.0,272 L1404.0,272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1384.0,277 L1400.0,277" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1388.0,282 L1396.0,282" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1764" y="104" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VREFH</text>
+<path d="M1760,112 L1772,104" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1760,112 L1772,120" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1748.0,272 L1772.0,272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1752.0,277 L1768.0,277" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1756.0,282 L1764.0,282" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2180" y="104" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VREFL</text>
+<path d="M2176,112 L2188,104" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2176,112 L2188,120" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2164.0,272 L2188.0,272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2168.0,277 L2184.0,277" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2172.0,282 L2180.0,282" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1204" y="104" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDDA</text>
+<path d="M1200,112 L1188,104" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1200,112 L1188,120" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1188.0,272 L1212.0,272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1192.0,277 L1208.0,277" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1196.0,282 L1204.0,282" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="228" y="1752" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">D0</text>
+<path d="M224,1760 L236,1752" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,1760 L236,1768" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M212.0,1920 L236.0,1920" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M216.0,1925 L232.0,1925" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M220.0,1930 L228.0,1930" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="836" y="1752" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">D1</text>
+<path d="M832,1760 L844,1752" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M832,1760 L844,1768" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M820.0,1920 L844.0,1920" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M824.0,1925 L840.0,1925" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M828.0,1930 L836.0,1930" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1444" y="1752" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">D2</text>
+<path d="M1440,1760 L1452,1752" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1440,1760 L1452,1768" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1428.0,1920 L1452.0,1920" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1432.0,1925 L1448.0,1925" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1436.0,1930 L1444.0,1930" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2052" y="1752" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">D3</text>
+<path d="M2048,1760 L2060,1752" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2048,1760 L2060,1768" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2036.0,1920 L2060.0,1920" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2040.0,1925 L2056.0,1925" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2044.0,1930 L2052.0,1930" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="228" y="1960" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">D4</text>
+<path d="M224,1968 L236,1960" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,1968 L236,1976" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M212.0,2128 L236.0,2128" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M216.0,2133 L232.0,2133" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M220.0,2138 L228.0,2138" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="836" y="1960" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">D5</text>
+<path d="M832,1968 L844,1960" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M832,1968 L844,1976" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M820.0,2128 L844.0,2128" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M824.0,2133 L840.0,2133" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M828.0,2138 L836.0,2138" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1444" y="1960" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">EN</text>
+<path d="M1440,1968 L1452,1960" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1440,1968 L1452,1976" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1428.0,2128 L1452.0,2128" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1432.0,2133 L1448.0,2133" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1436.0,2138 L1444.0,2138" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2484" y="936" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">OUT</text>
+<path d="M2480,944 L2492,936" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2480,944 L2492,952" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2468.0,1120 L2492.0,1120" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2472.0,1125 L2488.0,1125" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2476.0,1130 L2484.0,1130" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2484" y="1176" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">OUT</text>
+<path d="M2480,1184 L2492,1176" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2480,1184 L2492,1192" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2468.0,1344 L2492.0,1344" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2472.0,1349 L2488.0,1349" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2476.0,1354 L2484.0,1354" fill="none" stroke="#163e91" stroke-width="2"/>
+<rect x="256" y="560" width="320" height="704" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,592 L256,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="264" y="598" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">D0</text>
+<path d="M224,640 L256,640" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="264" y="646" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">D1</text>
+<path d="M224,688 L256,688" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="264" y="694" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">D2</text>
+<path d="M224,736 L256,736" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="264" y="742" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">D3</text>
+<path d="M224,784 L256,784" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="264" y="790" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">D4</text>
+<path d="M224,832 L256,832" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="264" y="838" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">D5</text>
+<path d="M224,880 L256,880" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="264" y="886" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">EN</text>
+<path d="M224,928 L256,928" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="264" y="934" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VDDL</text>
+<path d="M224,976 L256,976" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="264" y="982" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VDDA</text>
+<path d="M224,1024 L256,1024" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="264" y="1030" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VSS</text>
+<path d="M608,592 L576,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="598" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">S0</text>
+<path d="M608,640 L576,640" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="646" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">S0B</text>
+<path d="M608,688 L576,688" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="694" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">S1</text>
+<path d="M608,736 L576,736" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="742" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">S1B</text>
+<path d="M608,784 L576,784" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="790" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">S2</text>
+<path d="M608,832 L576,832" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="838" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">S2B</text>
+<path d="M608,880 L576,880" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="886" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">S3</text>
+<path d="M608,928 L576,928" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="934" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">S3B</text>
+<path d="M608,976 L576,976" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="982" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">S4</text>
+<path d="M608,1024 L576,1024" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="1030" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">S4B</text>
+<path d="M608,1072 L576,1072" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="1078" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">S5</text>
+<path d="M608,1120 L576,1120" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="1126" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">S5B</text>
+<path d="M608,1168 L576,1168" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="1174" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">E</text>
+<path d="M608,1216 L576,1216" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="568" y="1222" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">EB</text>
+<text x="416" y="1244" fill="#20283b" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">Level shifts</text>
+<text x="256" y="504" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">XCONTROL</text>
+<rect x="1056" y="560" width="320" height="800" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,592 L1056,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="598" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VREFL</text>
+<path d="M1024,640 L1056,640" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="646" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VREFH</text>
+<path d="M1024,688 L1056,688" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="694" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S0</text>
+<path d="M1024,736 L1056,736" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="742" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S0B</text>
+<path d="M1024,784 L1056,784" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="790" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S1</text>
+<path d="M1024,832 L1056,832" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="838" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S1B</text>
+<path d="M1024,880 L1056,880" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="886" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S2</text>
+<path d="M1024,928 L1056,928" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="934" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S2B</text>
+<path d="M1024,976 L1056,976" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="982" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S3</text>
+<path d="M1024,1024 L1056,1024" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="1030" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S3B</text>
+<path d="M1024,1072 L1056,1072" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="1078" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S4</text>
+<path d="M1024,1120 L1056,1120" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="1126" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S4B</text>
+<path d="M1024,1168 L1056,1168" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="1174" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S5</text>
+<path d="M1024,1216 L1056,1216" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="1222" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S5B</text>
+<path d="M1024,1264 L1056,1264" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="1270" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VDD</text>
+<path d="M1024,1312 L1056,1312" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1064" y="1318" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VSS</text>
+<path d="M1408,592 L1376,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1368" y="598" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">TAP</text>
+<text x="1216" y="1340" fill="#20283b" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">64 levels</text>
+<text x="1056" y="504" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">XSTRING</text>
+<rect x="1680" y="560" width="320" height="416" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1648,592 L1680,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1688" y="598" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">A</text>
+<path d="M1648,656 L1680,656" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1688" y="662" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">B</text>
+<path d="M1648,720 L1680,720" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1688" y="726" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S</text>
+<path d="M1648,784 L1680,784" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1688" y="790" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">SB</text>
+<path d="M1648,848 L1680,848" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1688" y="854" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VDD</text>
+<path d="M1648,912 L1680,912" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1688" y="918" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VSS</text>
+<path d="M2032,592 L2000,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1992" y="598" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">Y</text>
+<text x="1840" y="956" fill="#20283b" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">2:1</text>
+<text x="1680" y="504" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">XENABLE</text>
+<rect x="2208" y="560" width="320" height="224" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2176,592 L2208,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2216" y="598" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">IN</text>
+<path d="M2176,656 L2208,656" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2216" y="662" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VDDA</text>
+<path d="M2176,720 L2208,720" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2216" y="726" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VSS</text>
+<path d="M2560,592 L2528,592" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2520" y="598" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">OUT</text>
+<text x="2368" y="764" fill="#20283b" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">Buffer</text>
+<text x="2208" y="504" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">XBUFFER</text>
+<path d="M1016,180 L1032,180" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1016,220 L1032,220" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,172 L1024,188" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,240 L1024,232" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1024,160 L1024,168" fill="none" stroke="#163e91" stroke-width="2"/>
+<ellipse cx="1024.0" cy="200.0" rx="32.0" ry="32.0" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1072" y="184" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDD</text>
+<text x="1072" y="224" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">3.3</text>
+<path d="M1384,180 L1400,180" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1384,220 L1400,220" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1392,172 L1392,188" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1392,240 L1392,232" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1392,160 L1392,168" fill="none" stroke="#163e91" stroke-width="2"/>
+<ellipse cx="1392.0" cy="200.0" rx="32.0" ry="32.0" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1440" y="184" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VLOGIC</text>
+<text x="1440" y="224" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">1.8</text>
+<path d="M1752,180 L1768,180" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1752,220 L1768,220" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1760,172 L1760,188" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1760,240 L1760,232" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1760,160 L1760,168" fill="none" stroke="#163e91" stroke-width="2"/>
+<ellipse cx="1760.0" cy="200.0" rx="32.0" ry="32.0" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1808" y="184" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VHIGH</text>
+<text x="1808" y="224" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">3.0</text>
+<path d="M2168,180 L2184,180" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2168,220 L2184,220" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2176,172 L2176,188" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2176,240 L2176,232" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2176,160 L2176,168" fill="none" stroke="#163e91" stroke-width="2"/>
+<ellipse cx="2176.0" cy="200.0" rx="32.0" ry="32.0" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2224" y="184" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VLOW</text>
+<text x="2224" y="224" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">0.3</text>
+<path d="M1200,212 L1200,240" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1200,204 L1200,176" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1184,204 L1216,204" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1184,212 L1216,212" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1248" y="192" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">CDEC</text>
+<text x="1248" y="224" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">100n</text>
+<path d="M216,1828 L232,1828" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M216,1868 L232,1868" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,1820 L224,1836" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,1888 L224,1880" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,1808 L224,1816" fill="none" stroke="#163e91" stroke-width="2"/>
+<ellipse cx="224.0" cy="1848.0" rx="32.0" ry="32.0" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="272" y="1832" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VD0</text>
+<text x="272" y="1872" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">PWL FILE=&quot;data_d0.txt&quot;</text>
+<path d="M824,1828 L840,1828" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M824,1868 L840,1868" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M832,1820 L832,1836" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M832,1888 L832,1880" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M832,1808 L832,1816" fill="none" stroke="#163e91" stroke-width="2"/>
+<ellipse cx="832.0" cy="1848.0" rx="32.0" ry="32.0" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="880" y="1832" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VD1</text>
+<text x="880" y="1872" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">PWL FILE=&quot;data_d1.txt&quot;</text>
+<path d="M1432,1828 L1448,1828" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1432,1868 L1448,1868" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1440,1820 L1440,1836" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1440,1888 L1440,1880" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1440,1808 L1440,1816" fill="none" stroke="#163e91" stroke-width="2"/>
+<ellipse cx="1440.0" cy="1848.0" rx="32.0" ry="32.0" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1488" y="1832" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VD2</text>
+<text x="1488" y="1872" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">PWL FILE=&quot;data_d2.txt&quot;</text>
+<path d="M2040,1828 L2056,1828" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2040,1868 L2056,1868" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2048,1820 L2048,1836" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2048,1888 L2048,1880" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2048,1808 L2048,1816" fill="none" stroke="#163e91" stroke-width="2"/>
+<ellipse cx="2048.0" cy="1848.0" rx="32.0" ry="32.0" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2096" y="1832" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VD3</text>
+<text x="2096" y="1872" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">PWL FILE=&quot;data_d3.txt&quot;</text>
+<path d="M216,2036 L232,2036" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M216,2076 L232,2076" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,2028 L224,2044" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,2096 L224,2088" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M224,2016 L224,2024" fill="none" stroke="#163e91" stroke-width="2"/>
+<ellipse cx="224.0" cy="2056.0" rx="32.0" ry="32.0" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="272" y="2040" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VD4</text>
+<text x="272" y="2080" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">PWL FILE=&quot;data_d4.txt&quot;</text>
+<path d="M824,2036 L840,2036" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M824,2076 L840,2076" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M832,2028 L832,2044" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M832,2096 L832,2088" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M832,2016 L832,2024" fill="none" stroke="#163e91" stroke-width="2"/>
+<ellipse cx="832.0" cy="2056.0" rx="32.0" ry="32.0" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="880" y="2040" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VD5</text>
+<text x="880" y="2080" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">PWL FILE=&quot;data_d5.txt&quot;</text>
+<path d="M1432,2036 L1448,2036" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1432,2076 L1448,2076" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1440,2028 L1440,2044" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1440,2096 L1440,2088" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1440,2016 L1440,2024" fill="none" stroke="#163e91" stroke-width="2"/>
+<ellipse cx="1440.0" cy="2056.0" rx="32.0" ry="32.0" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1488" y="2040" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VEN</text>
+<text x="1488" y="2080" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">PWL FILE=&quot;enable.txt&quot;</text>
+<path d="M2480,1080 L2480,1088" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2464,1072 L2480,1080" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2496,1056 L2464,1072" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2464,1040 L2496,1056" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2496,1024 L2464,1040" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2480,1008 L2480,1016" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2480,1016 L2496,1024" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2544" y="1008" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">RLOAD</text>
+<text x="2544" y="1040" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">100k</text>
+<path d="M2480,1284 L2480,1312" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2480,1276 L2480,1248" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2464,1276 L2496,1276" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M2464,1284 L2496,1284" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="2544" y="1264" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">CLOAD</text>
+<text x="2544" y="1296" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">20p</text>
+<text x="896" y="1488" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">.include DAC6_Models.lib</text>
+<text x="896" y="1528" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">.tran 0 8m 0 1u</text>
+<text x="896" y="1568" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">.options plotwinsize=0 method=gear</text>
+<text x="896" y="1608" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">.save V(*) V(*:*) V(*:*:*) V(*:*:*:*) V(*:*:*:*:*) I(VHIGH) I(VLOW) I(VDD) I(VLOGIC)</text>
+<text x="896" y="1648" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">.meas tran OUT63 FIND V(OUT) AT=6.35m</text>
+<text x="896" y="1688" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">.meas tran OUT0 FIND V(OUT) AT=50u</text>
+</svg>

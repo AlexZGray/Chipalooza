@@ -1,0 +1,317 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2112" height="2448" viewBox="-48 -48 2112 2448"><rect x="-48" y="-48" width="100%" height="100%" fill="white"/>
+<path d="M192,160 L144,160" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,224 L144,224" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,288 L144,288" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,352 L144,352" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,416 L144,416" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,480 L144,480" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M576,160 L624,160" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,720 L144,720" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,784 L144,784" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,848 L144,848" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,912 L144,912" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,976 L144,976" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,1040 L144,1040" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M576,720 L624,720" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,1280 L144,1280" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,1344 L144,1344" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,1408 L144,1408" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,1472 L144,1472" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,1536 L144,1536" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,1600 L144,1600" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M576,1280 L624,1280" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,1840 L144,1840" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,1904 L144,1904" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,1968 L144,1968" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,2032 L144,2032" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,2096 L144,2096" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,2160 L144,2160" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M576,1840 L624,1840" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,440 L800,440" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,504 L800,504" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,568 L800,568" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,632 L800,632" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,696 L800,696" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,760 L800,760" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1232,440 L1280,440" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,1560 L800,1560" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,1624 L800,1624" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,1688 L800,1688" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,1752 L800,1752" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,1816 L800,1816" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,1880 L800,1880" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1232,1560 L1280,1560" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1504,1000 L1456,1000" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1504,1064 L1456,1064" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1504,1128 L1456,1128" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1504,1192 L1456,1192" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1504,1256 L1456,1256" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1504,1320 L1456,1320" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1888,1000 L1936,1000" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="152" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">I0</text>
+<path d="M144,160 L132,152" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,160 L132,168" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="216" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">I1</text>
+<path d="M144,224 L132,216" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,224 L132,232" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="280" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S0</text>
+<path d="M144,288 L132,280" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,288 L132,296" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="344" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S0B</text>
+<path d="M144,352 L132,344" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,352 L132,360" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="408" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDD</text>
+<path d="M144,416 L132,408" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,416 L132,424" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="472" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VSS</text>
+<path d="M144,480 L132,472" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,480 L132,488" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="628" y="152" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">N0_0</text>
+<path d="M624,160 L612,152" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M624,160 L612,168" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="712" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">I2</text>
+<path d="M144,720 L132,712" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,720 L132,728" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="776" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">I3</text>
+<path d="M144,784 L132,776" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,784 L132,792" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="840" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S0</text>
+<path d="M144,848 L132,840" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,848 L132,856" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="904" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S0B</text>
+<path d="M144,912 L132,904" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,912 L132,920" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="968" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDD</text>
+<path d="M144,976 L132,968" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,976 L132,984" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="1032" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VSS</text>
+<path d="M144,1040 L132,1032" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,1040 L132,1048" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="628" y="712" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">N0_1</text>
+<path d="M624,720 L612,712" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M624,720 L612,728" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="1272" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">I4</text>
+<path d="M144,1280 L132,1272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,1280 L132,1288" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="1336" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">I5</text>
+<path d="M144,1344 L132,1336" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,1344 L132,1352" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="1400" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S0</text>
+<path d="M144,1408 L132,1400" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,1408 L132,1416" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="1464" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S0B</text>
+<path d="M144,1472 L132,1464" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,1472 L132,1480" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="1528" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDD</text>
+<path d="M144,1536 L132,1528" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,1536 L132,1544" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="1592" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VSS</text>
+<path d="M144,1600 L132,1592" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,1600 L132,1608" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="628" y="1272" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">N0_2</text>
+<path d="M624,1280 L612,1272" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M624,1280 L612,1288" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="1832" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">I6</text>
+<path d="M144,1840 L132,1832" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,1840 L132,1848" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="1896" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">I7</text>
+<path d="M144,1904 L132,1896" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,1904 L132,1912" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="1960" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S0</text>
+<path d="M144,1968 L132,1960" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,1968 L132,1976" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="2024" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S0B</text>
+<path d="M144,2032 L132,2024" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,2032 L132,2040" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="2088" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDD</text>
+<path d="M144,2096 L132,2088" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,2096 L132,2104" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="148" y="2152" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VSS</text>
+<path d="M144,2160 L132,2152" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M144,2160 L132,2168" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="628" y="1832" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">N0_3</text>
+<path d="M624,1840 L612,1832" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M624,1840 L612,1848" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="804" y="432" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">N0_0</text>
+<path d="M800,440 L788,432" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,440 L788,448" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="804" y="496" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">N0_1</text>
+<path d="M800,504 L788,496" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,504 L788,512" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="804" y="560" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S1</text>
+<path d="M800,568 L788,560" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,568 L788,576" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="804" y="624" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S1B</text>
+<path d="M800,632 L788,624" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,632 L788,640" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="804" y="688" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDD</text>
+<path d="M800,696 L788,688" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,696 L788,704" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="804" y="752" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VSS</text>
+<path d="M800,760 L788,752" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,760 L788,768" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1284" y="432" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">N1_0</text>
+<path d="M1280,440 L1268,432" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1280,440 L1268,448" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="804" y="1552" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">N0_2</text>
+<path d="M800,1560 L788,1552" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,1560 L788,1568" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="804" y="1616" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">N0_3</text>
+<path d="M800,1624 L788,1616" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,1624 L788,1632" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="804" y="1680" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S1</text>
+<path d="M800,1688 L788,1680" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,1688 L788,1696" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="804" y="1744" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S1B</text>
+<path d="M800,1752 L788,1744" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,1752 L788,1760" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="804" y="1808" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDD</text>
+<path d="M800,1816 L788,1808" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,1816 L788,1824" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="804" y="1872" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VSS</text>
+<path d="M800,1880 L788,1872" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,1880 L788,1888" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1284" y="1552" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">N1_1</text>
+<path d="M1280,1560 L1268,1552" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1280,1560 L1268,1568" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1460" y="992" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">N1_0</text>
+<path d="M1456,1000 L1444,992" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1456,1000 L1444,1008" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1460" y="1056" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">N1_1</text>
+<path d="M1456,1064 L1444,1056" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1456,1064 L1444,1072" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1460" y="1120" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S2</text>
+<path d="M1456,1128 L1444,1120" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1456,1128 L1444,1136" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1460" y="1184" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">S2B</text>
+<path d="M1456,1192 L1444,1184" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1456,1192 L1444,1200" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1460" y="1248" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDD</text>
+<path d="M1456,1256 L1444,1248" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1456,1256 L1444,1264" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1460" y="1312" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VSS</text>
+<path d="M1456,1320 L1444,1312" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1456,1320 L1444,1328" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1940" y="992" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">Y</text>
+<path d="M1936,1000 L1924,992" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1936,1000 L1924,1008" fill="none" stroke="#163e91" stroke-width="2"/>
+<rect x="224" y="128" width="320" height="416" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,160 L224,160" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="166" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">A</text>
+<path d="M192,224 L224,224" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="230" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">B</text>
+<path d="M192,288 L224,288" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="294" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S</text>
+<path d="M192,352 L224,352" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="358" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">SB</text>
+<path d="M192,416 L224,416" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="422" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VDD</text>
+<path d="M192,480 L224,480" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="486" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VSS</text>
+<path d="M576,160 L544,160" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="536" y="166" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">Y</text>
+<text x="384" y="524" fill="#20283b" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">2:1</text>
+<text x="224" y="72" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">XM0_0</text>
+<rect x="224" y="688" width="320" height="416" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,720 L224,720" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="726" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">A</text>
+<path d="M192,784 L224,784" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="790" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">B</text>
+<path d="M192,848 L224,848" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="854" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S</text>
+<path d="M192,912 L224,912" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="918" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">SB</text>
+<path d="M192,976 L224,976" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="982" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VDD</text>
+<path d="M192,1040 L224,1040" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="1046" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VSS</text>
+<path d="M576,720 L544,720" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="536" y="726" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">Y</text>
+<text x="384" y="1084" fill="#20283b" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">2:1</text>
+<text x="224" y="632" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">XM0_1</text>
+<rect x="224" y="1248" width="320" height="416" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,1280 L224,1280" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="1286" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">A</text>
+<path d="M192,1344 L224,1344" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="1350" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">B</text>
+<path d="M192,1408 L224,1408" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="1414" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S</text>
+<path d="M192,1472 L224,1472" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="1478" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">SB</text>
+<path d="M192,1536 L224,1536" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="1542" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VDD</text>
+<path d="M192,1600 L224,1600" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="1606" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VSS</text>
+<path d="M576,1280 L544,1280" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="536" y="1286" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">Y</text>
+<text x="384" y="1644" fill="#20283b" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">2:1</text>
+<text x="224" y="1192" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">XM0_2</text>
+<rect x="224" y="1808" width="320" height="416" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M192,1840 L224,1840" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="1846" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">A</text>
+<path d="M192,1904 L224,1904" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="1910" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">B</text>
+<path d="M192,1968 L224,1968" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="1974" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S</text>
+<path d="M192,2032 L224,2032" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="2038" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">SB</text>
+<path d="M192,2096 L224,2096" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="2102" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VDD</text>
+<path d="M192,2160 L224,2160" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="232" y="2166" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VSS</text>
+<path d="M576,1840 L544,1840" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="536" y="1846" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">Y</text>
+<text x="384" y="2204" fill="#20283b" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">2:1</text>
+<text x="224" y="1752" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">XM0_3</text>
+<rect x="880" y="408" width="320" height="416" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,440 L880,440" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="888" y="446" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">A</text>
+<path d="M848,504 L880,504" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="888" y="510" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">B</text>
+<path d="M848,568 L880,568" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="888" y="574" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S</text>
+<path d="M848,632 L880,632" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="888" y="638" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">SB</text>
+<path d="M848,696 L880,696" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="888" y="702" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VDD</text>
+<path d="M848,760 L880,760" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="888" y="766" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VSS</text>
+<path d="M1232,440 L1200,440" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1192" y="446" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">Y</text>
+<text x="1040" y="804" fill="#20283b" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">2:1</text>
+<text x="880" y="352" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">XM1_0</text>
+<rect x="880" y="1528" width="320" height="416" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M848,1560 L880,1560" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="888" y="1566" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">A</text>
+<path d="M848,1624 L880,1624" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="888" y="1630" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">B</text>
+<path d="M848,1688 L880,1688" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="888" y="1694" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S</text>
+<path d="M848,1752 L880,1752" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="888" y="1758" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">SB</text>
+<path d="M848,1816 L880,1816" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="888" y="1822" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VDD</text>
+<path d="M848,1880 L880,1880" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="888" y="1886" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VSS</text>
+<path d="M1232,1560 L1200,1560" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1192" y="1566" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">Y</text>
+<text x="1040" y="1924" fill="#20283b" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">2:1</text>
+<text x="880" y="1472" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">XM1_1</text>
+<rect x="1536" y="968" width="320" height="416" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M1504,1000 L1536,1000" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1544" y="1006" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">A</text>
+<path d="M1504,1064 L1536,1064" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1544" y="1070" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">B</text>
+<path d="M1504,1128 L1536,1128" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1544" y="1134" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">S</text>
+<path d="M1504,1192 L1536,1192" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1544" y="1198" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">SB</text>
+<path d="M1504,1256 L1536,1256" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1544" y="1262" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VDD</text>
+<path d="M1504,1320 L1536,1320" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1544" y="1326" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">VSS</text>
+<path d="M1888,1000 L1856,1000" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="1848" y="1006" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">Y</text>
+<text x="1696" y="1364" fill="#20283b" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">2:1</text>
+<text x="1536" y="912" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">XM2_0</text>
+</svg>

@@ -1,0 +1,93 @@
+{
+  "simulator": "LTspice 26.1.1",
+  "status": "PASS",
+  "LSB_mV": 42.1875,
+  "code0_V": 0.2954992651939392,
+  "code63_V": 2.9533050060272217,
+  "max_output_error_LSB": 0.10684882269965067,
+  "max_tap_error_LSB": 2.3735894093011598e-05,
+  "max_abs_DNL_LSB": 6.781684027790114e-06,
+  "max_abs_endpoint_INL_LSB": 2.1192762586805555e-05,
+  "min_step_mV": 42.18721389770508,
+  "level_shift_max_rail_error_V": 4.7683715642676816e-08,
+  "largest_measured_settling_us": 6.18772691198758,
+  "settling_band": "ideal output +/-0.5 LSB; includes model offset",
+  "settling_tests": [
+    {
+      "slot": 65,
+      "code": 63,
+      "time_us": 4.78093248097635
+    },
+    {
+      "slot": 66,
+      "code": 0,
+      "time_us": 4.596037906326456
+    },
+    {
+      "slot": 67,
+      "code": 31,
+      "time_us": 6.18772691198758
+    },
+    {
+      "slot": 68,
+      "code": 32,
+      "time_us": 5.095324807787536
+    },
+    {
+      "slot": 69,
+      "code": 31,
+      "time_us": 5.386919791807408
+    },
+    {
+      "slot": 70,
+      "code": 32,
+      "time_us": 5.095324806698997
+    },
+    {
+      "slot": 71,
+      "code": 63,
+      "time_us": 2.4288769716060767
+    },
+    {
+      "slot": 74,
+      "code": 0,
+      "time_us": 0.10492498998641853
+    },
+    {
+      "slot": 75,
+      "code": 63,
+      "time_us": 4.780933108405015
+    },
+    {
+      "slot": 76,
+      "code": 0,
+      "time_us": 4.604256351826118
+    },
+    {
+      "slot": 77,
+      "code": 63,
+      "time_us": 4.780924195271763
+    },
+    {
+      "slot": 78,
+      "code": 0,
+      "time_us": 4.566990514404123
+    }
+  ],
+  "disabled_output_V": 0.2954992651939392,
+  "string_current_uA": 42.18759931973182,
+  "heavy_load_code63_V": 2.538461685180664,
+  "max_direct_tap_loading_error_mV": 267.4185752868654,
+  "checks": [
+    "all 64 codes selected correctly",
+    "monotonicity",
+    "absolute accuracy",
+    "DNL and endpoint INL measured",
+    "all six 1.8V inputs and 3.3V complements",
+    "major-carry and large-jump settling",
+    "enable reset to VREFL",
+    "ladder current",
+    "intentional heavy-load clipping",
+    "intentional direct-tap loading"
+  ]
+}

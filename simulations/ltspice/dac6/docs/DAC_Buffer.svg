@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="768" viewBox="-48 -48 1152 768"><rect x="-48" y="-48" width="100%" height="100%" fill="white"/>
+<path d="M480,336 L288,336" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M480,368 L384,368" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M384,368 L384,560" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M384,560 L528,560" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,384 L800,384" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,384 L960,384" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M800,384 L800,560" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,560 L800,560" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,320 L608,128" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,352 L672,352" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="292" y="328" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">IN</text>
+<path d="M288,336 L276,328" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M288,336 L276,344" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="964" y="376" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">OUT</text>
+<path d="M960,384 L972,376" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M960,384 L972,392" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="612" y="120" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VDDA</text>
+<path d="M608,128 L596,120" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,128 L596,136" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="676" y="344" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">VSS</text>
+<path d="M672,352 L660,344" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M672,352 L660,360" fill="none" stroke="#163e91" stroke-width="2"/>
+<rect x="480" y="296" width="128" height="112" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="488" y="342" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">in+</text>
+<text x="488" y="374" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="start">in-</text>
+<text x="600" y="326" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">V+</text>
+<text x="600" y="358" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">V-</text>
+<text x="600" y="390" fill="#20283b" font-family="Arial,sans-serif" font-size="18" text-anchor="end">out</text>
+<text x="528" y="256" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">U1</text>
+<text x="480" y="448" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">MCP6001</text>
+<path d="M536,560 L528,560" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M544,544 L536,560" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M560,576 L544,544" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M576,544 L560,576" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M592,576 L576,544" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M608,560 L600,560" fill="none" stroke="#163e91" stroke-width="2"/>
+<path d="M600,560 L592,576" fill="none" stroke="#163e91" stroke-width="2"/>
+<text x="544" y="528" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">RF</text>
+<text x="544" y="624" fill="#20283b" font-family="Arial,sans-serif" font-size="19" text-anchor="start">1k</text>
+</svg>

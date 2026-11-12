@@ -1,0 +1,2 @@
+# Optional: only used by plot_results.py, not LTspice or verify_results.py.
+reportlab>=4.4,<5

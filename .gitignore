@@ -3,13 +3,19 @@
 Thumbs.db
 __pycache__/
 *.pyc
+.venv/
 
-# LTspice regenerates these beside the source schematics.
-/simulations/ltspice/*.raw
-/simulations/ltspice/*.log
-/simulations/ltspice/*.net
-/simulations/ltspice/*.bak
-/simulations/ltspice/*.db
-/simulations/ltspice/*.sqlite
-/simulations/ltspice/*.asc~
-/simulations/ltspice/*.asy~
+# LTspice regenerates these beside source schematics, including subfolders.
+/simulations/ltspice/**/*.raw
+/simulations/ltspice/**/*.log
+/simulations/ltspice/**/*.net
+/simulations/ltspice/**/*.bak
+/simulations/ltspice/**/*.bck
+/simulations/ltspice/**/*.db
+/simulations/ltspice/**/*.sqlite
+/simulations/ltspice/**/*.asc~
+/simulations/ltspice/**/*.asy~
+
+# Fresh verification output; committed reference measurements remain unchanged.
+/simulations/ltspice/**/results/latest.json
+/simulations/ltspice/**/results/latest_all_codes.csv

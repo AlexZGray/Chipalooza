@@ -71,7 +71,7 @@ An LTSpice model of the architecture (64-resistor string, the transmission-gate 
 |---|---|---|
 | All 64 codes, monotonic | Pass; minimum step 42.187 mV | The tree and level-shifter logic select correctly |
 | Worst absolute error | 0.107 LSB (4.5 mV) | Almost all of this is the macromodel's built-in 4.5 mV offset. It sets the scale of the buffer-offset budget |
-| DNL / INL | ≈ 0 | Expected with ideal, identical resistors. These say nothing yet about silicon linearity; Sky130 mismatch analysis will |
+| DNL / INL | ≈ 0 | Expected with ideal, identical resistors. Silicon DNL/INL will depend on how well the Sky130 poly resistors match. |
 | Worst settling (tested transitions, including 31↔32 and 0↔63) | 6.2 µs | With a 1 MHz amplifier, the 20 µs target leaves margin |
 | 100 kΩ load placed directly on the tap | 267 mV error (≈ 6 LSB) | The buffer is necessary |
 | 1 kΩ output load | Code 63 clips to 2.54 V | Shows the output-drive limit. A 1 kΩ load is outside the specified load range |

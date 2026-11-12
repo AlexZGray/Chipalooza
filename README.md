@@ -2,6 +2,12 @@
 
 Circuit design and simulation work for **Chipalooza Challenge #4 (Sky130)**. The current project is a **buffered 6-bit resistor-string DAC** for programmable thresholds, calibration voltages and low-frequency analogue set points.
 
+## Initial proposal
+
+**[Proposal documents and editable versions →](docs/proposal/README.md)**
+
+The package includes the six-page technical proposal, a separate provisional equipment list, a requirements review and submission checklist. Team details remain placeholders. The proposal has not been submitted; its Sky130 targets and planned test/bias interfaces are distinct from the current LTspice demonstrator.
+
 ## Run the LTspice DAC
 
 1. Clone this repository, or choose **Code → Download ZIP** and extract the complete archive.

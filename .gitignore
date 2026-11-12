@@ -1,0 +1,15 @@
+# Local operating-system and Python files.
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# LTspice regenerates these beside the source schematics.
+/simulations/ltspice/*.raw
+/simulations/ltspice/*.log
+/simulations/ltspice/*.net
+/simulations/ltspice/*.bak
+/simulations/ltspice/*.db
+/simulations/ltspice/*.sqlite
+/simulations/ltspice/*.asc~
+/simulations/ltspice/*.asy~

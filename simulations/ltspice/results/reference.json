@@ -1,0 +1,100 @@
+{
+  "simulator": "LTspice 26.1.1",
+  "verified_date": "2026-11-12",
+  "setup": {
+    "supply_V": 5,
+    "duration_ms": 8,
+    "normal_load_ohm": 100000,
+    "heavy_load_ohm": 1000,
+    "load_capacitance_pF": 20,
+    "settled_samples": "50 to 970 us into each 1 ms slot, before 7.85 ms"
+  },
+  "results": {
+    "Mux4_Complete": {
+      "points": 10465,
+      "duration_s": 0.008,
+      "decoder_max_error_V": 1.51056610775413e-07,
+      "disabled_decoder_max_error_V": 2.86102294921875e-06,
+      "channels": [
+        {
+          "input": 0,
+          "max_settled_error_mV": 0.23221969604492188,
+          "mean_gain": 0.9997589445257503
+        },
+        {
+          "input": 1,
+          "max_settled_error_mV": 0.6158351898193359,
+          "mean_gain": 0.99970726371087
+        },
+        {
+          "input": 2,
+          "max_settled_error_mV": 0.9648799896240234,
+          "mean_gain": 0.9997072486730489
+        },
+        {
+          "input": 3,
+          "max_settled_error_mV": 1.0585784912109375,
+          "mean_gain": 0.9997590461172446
+        }
+      ]
+    },
+    "Mux4_Testbench": {
+      "points": 10454,
+      "duration_s": 0.008,
+      "decoder_max_error_V": 1.51061101405503e-07,
+      "disabled_decoder_max_error_V": 2.86102294921875e-06,
+      "channels": [
+        {
+          "input": 0,
+          "max_settled_error_mV": 0.23221969604492188,
+          "mean_gain": 0.9997589434284663
+        },
+        {
+          "input": 1,
+          "max_settled_error_mV": 0.6158351898193359,
+          "mean_gain": 0.9997072643703845
+        },
+        {
+          "input": 2,
+          "max_settled_error_mV": 0.9648799896240234,
+          "mean_gain": 0.9997072483879673
+        },
+        {
+          "input": 3,
+          "max_settled_error_mV": 1.0585784912109375,
+          "mean_gain": 0.9997590450147027
+        }
+      ]
+    },
+    "Mux4_Heavy_Load": {
+      "points": 10582,
+      "duration_s": 0.008,
+      "decoder_max_error_V": 1.518045564807835e-07,
+      "disabled_decoder_max_error_V": 2.1424666485359012e-08,
+      "channels": [
+        {
+          "input": 0,
+          "max_settled_error_mV": 22.533774375915527,
+          "mean_gain": 0.9765309901370295
+        },
+        {
+          "input": 1,
+          "max_settled_error_mV": 59.62634086608887,
+          "mean_gain": 0.971637632337438
+        },
+        {
+          "input": 2,
+          "max_settled_error_mV": 93.2929515838623,
+          "mean_gain": 0.9716777557042313
+        },
+        {
+          "input": 3,
+          "max_settled_error_mV": 104.60114479064941,
+          "mean_gain": 0.9761682019935569
+        }
+      ]
+    },
+    "complete_vs_reusable_symbol_max_difference_V": 2.0949456809304934e-06,
+    "status": "pass"
+  }
+}

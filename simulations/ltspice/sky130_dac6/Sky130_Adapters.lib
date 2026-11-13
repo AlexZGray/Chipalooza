@@ -1,0 +1,26 @@
+* Sky130 geometry adapters. All W/L and diffusion dimensions are in um.
+* mult is a bank of independent identical transistors, NOT a wider finger.
+.subckt SKY_N5 D G S B params: w=7 l=1 mult=1
+XPDK D G S B sky130_fd_pr__nfet_g5v0d10v5 w={w} l={l} mult={mult} ad={w*0.29} as={w*0.29} pd={2*(w+0.29)} ps={2*(w+0.29)} nrd={0.29/w} nrs={0.29/w}
+.ends SKY_N5
+.subckt SKY_P5 D G S B params: w=7 l=1 mult=1
+XPDK D G S B sky130_fd_pr__pfet_g5v0d10v5 w={w} l={l} mult={mult} ad={w*0.29} as={w*0.29} pd={2*(w+0.29)} ps={2*(w+0.29)} nrd={0.29/w} nrs={0.29/w}
+.ends SKY_P5
+.subckt SKY_N1 D G S B params: w=7 l=1 mult=1
+XPDK D G S B sky130_fd_pr__nfet_01v8 w={w} l={l} mult={mult} ad={w*0.29} as={w*0.29} pd={2*(w+0.29)} ps={2*(w+0.29)} nrd={0.29/w} nrs={0.29/w}
+.ends SKY_N1
+.subckt SKY_P1 D G S B params: w=7 l=1 mult=1
+XPDK D G S B sky130_fd_pr__pfet_01v8 w={w} l={l} mult={mult} ad={w*0.29} as={w*0.29} pd={2*(w+0.29)} ps={2*(w+0.29)} nrd={0.29/w} nrs={0.29/w}
+.ends SKY_P1
+.subckt SKY_R1K A B SUB
+XLEG0 A B SUB sky130_fd_pr__res_high_po_0p69 l=7.33
+XLEG1 A B SUB sky130_fd_pr__res_high_po_0p69 l=7.33
+XLEG2 A B SUB sky130_fd_pr__res_high_po_0p69 l=7.33
+XLEG3 A B SUB sky130_fd_pr__res_high_po_0p69 l=7.33
+.ends SKY_R1K
+.subckt SKY_R A B SUB params: l=1.2
+XPDK A B SUB sky130_fd_pr__res_high_po_0p69 l={l}
+.ends SKY_R
+.subckt SKY_C A B params: w=173.0 l=173.0
+XPDK A B sky130_fd_pr__cap_mim_m3_1 w={w} l={l}
+.ends SKY_C

@@ -19,3 +19,9 @@ __pycache__/
 # Fresh verification output; committed reference measurements remain unchanged.
 /simulations/ltspice/**/results/latest.json
 /simulations/ltspice/**/results/latest_all_codes.csv
+
+# Sky130 verification work files and automatically exported netlists.
+/simulations/ltspice/sky130_dac6/**/*.generated.txt
+/simulations/ltspice/sky130_dac6/**/*.log.json
+/simulations/ltspice/sky130_dac6/results/latest*
+/simulations/ltspice/sky130_dac6/validation/.work/

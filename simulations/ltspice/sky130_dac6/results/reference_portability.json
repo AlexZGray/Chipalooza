@@ -1,0 +1,303 @@
+{
+  "status": "PASS",
+  "date": "2026-11-13",
+  "simulator": "LTspice 26.1.1",
+  "method": "Run Top.asc and Integration.asc from an independently extracted package in a folder containing spaces; verify all 64 codes and timing, and compare runnable input hashes.",
+  "checks": {
+    "Top": {
+      "status": "PASS",
+      "case": "Top",
+      "code0_V": 0.3002528250217438,
+      "code63_V": 2.957956314086914,
+      "max_abs_error_LSB": 0.007838779025606585,
+      "zero_error_LSB": 0.005992889404297138,
+      "gain_error_LSB": -0.0025839628996756664,
+      "max_abs_DNL_LSB": 0.002327247902198959,
+      "max_abs_endpoint_INL_LSB": 0.008216366776297137,
+      "max_settling_us": 10.227035816120708,
+      "settling": [
+        {
+          "slot": 65,
+          "code": 63,
+          "time_us": 10.22702143446859
+        },
+        {
+          "slot": 66,
+          "code": 0,
+          "time_us": 9.80751967544647
+        },
+        {
+          "slot": 67,
+          "code": 31,
+          "time_us": 4.341388959131984
+        },
+        {
+          "slot": 68,
+          "code": 32,
+          "time_us": 1.0138329601177762
+        },
+        {
+          "slot": 69,
+          "code": 31,
+          "time_us": 0.9710173450678747
+        },
+        {
+          "slot": 70,
+          "code": 32,
+          "time_us": 1.0179638402678728
+        },
+        {
+          "slot": 71,
+          "code": 63,
+          "time_us": 6.181420809999762
+        },
+        {
+          "slot": 74,
+          "code": 0,
+          "time_us": 0.0
+        },
+        {
+          "slot": 75,
+          "code": 63,
+          "time_us": 10.167347586658403
+        },
+        {
+          "slot": 76,
+          "code": 0,
+          "time_us": 9.799274764718362
+        },
+        {
+          "slot": 77,
+          "code": 63,
+          "time_us": 10.227035816120708
+        },
+        {
+          "slot": 78,
+          "code": 0,
+          "time_us": 9.813220526636023
+        }
+      ],
+      "max_steady_IDDA_uA": 145.56368114426732,
+      "peak_IDDA_uA": 2471.7608466744423,
+      "string_current_uA": 42.21663766657003,
+      "disabled_output_V": 0.3002667160914903,
+      "max_steady_IDDD_uA": 0.004514472300246496,
+      "max_reference_current_uA": 42.216808651573956
+    },
+    "Integration": {
+      "status": "PASS",
+      "case": "Integration",
+      "code0_V": 0.3002528250217438,
+      "code63_V": 2.957956314086914,
+      "max_abs_error_LSB": 0.007838779025606585,
+      "zero_error_LSB": 0.005992889404297138,
+      "gain_error_LSB": -0.0025839628996756664,
+      "max_abs_DNL_LSB": 0.002327247902198959,
+      "max_abs_endpoint_INL_LSB": 0.008216366776297137,
+      "max_settling_us": 10.227035816120708,
+      "settling": [
+        {
+          "slot": 65,
+          "code": 63,
+          "time_us": 10.22702143446859
+        },
+        {
+          "slot": 66,
+          "code": 0,
+          "time_us": 9.80751967544647
+        },
+        {
+          "slot": 67,
+          "code": 31,
+          "time_us": 4.341388959131984
+        },
+        {
+          "slot": 68,
+          "code": 32,
+          "time_us": 1.0138329601177762
+        },
+        {
+          "slot": 69,
+          "code": 31,
+          "time_us": 0.9710173450678747
+        },
+        {
+          "slot": 70,
+          "code": 32,
+          "time_us": 1.0179638402678728
+        },
+        {
+          "slot": 71,
+          "code": 63,
+          "time_us": 6.181420809999762
+        },
+        {
+          "slot": 74,
+          "code": 0,
+          "time_us": 0.0
+        },
+        {
+          "slot": 75,
+          "code": 63,
+          "time_us": 10.167347586658403
+        },
+        {
+          "slot": 76,
+          "code": 0,
+          "time_us": 9.799274764718362
+        },
+        {
+          "slot": 77,
+          "code": 63,
+          "time_us": 10.227035816120708
+        },
+        {
+          "slot": 78,
+          "code": 0,
+          "time_us": 9.813220526636023
+        }
+      ],
+      "max_steady_IDDA_uA": 145.56368114426732,
+      "peak_IDDA_uA": 2471.7608466744423,
+      "string_current_uA": 42.21663766657003,
+      "disabled_output_V": 0.3002667160914903,
+      "max_steady_IDDD_uA": 0.004514472300246496,
+      "max_reference_current_uA": 42.216808651573956,
+      "max_difference_from_Top_uV": 0.0
+    }
+  },
+  "runnable_input_SHA256": {
+    "Buffer_AC.asc": "7f7280895fac8e74b56d583afdfa98a3ca50a901e560208fa113250668f080ab",
+    "Buffer_AC_Worst.asc": "a40e84cb6604b5ce2ecb1b6144e134a8abf7fc998f61fbe424c57b2b10a1417f",
+    "Buffer_DC.asc": "cc2099c9eaabdca20dbde50ef97a8eb3e968dc4a918ee296ee335f8ebdb73daf",
+    "Buffer_DC_Low.asc": "61cba62bb394a64fde043b0e0fac86bd8f6901ce21b0766b59bfffbff6978168",
+    "Buffer_Range.asc": "5c5717b6dd4890afc0a7d03bfcc2506822db7b5c2f04d99f3b111b05a5bcd45b",
+    "Buffer_Step.asc": "7eb5967e0cfb95eea14cac8be289ff2a1d860ed1367d0317b8b695381e879d68",
+    "CMOS_INV.asc": "593c0b3a10d6a1d89b631a700ee8042fba34ab215f63b4688b1929a9e2989c12",
+    "CMOS_INV.asy": "cdcce2f7dc9a5093794a0983205ed79725e76ba92644fc62a48690ced701b813",
+    "CMOS_TG.asc": "e980bca5645922b12f2c00af6d9dd664fe7f4f732842e72418fbcf6938a90b09",
+    "CMOS_TG.asy": "d4a62f6159861c19b64c81d3534a055f0dd9163d415243e2b89e547299fadabb",
+    "DAC6_Sky130_Cold_Skew.asc": "d3f401d98d1547a592ac29af29e1b98b98bd58e62d56a613a83704ba69fabc29",
+    "DAC6_Sky130_Core.asc": "778c53d251f9ec18ba0b5256ccfdfeb893b12a8aa3466de6f0bacf211bb00580",
+    "DAC6_Sky130_Core.asy": "842714c349b587f2dfbacb19afb774ac9294b0b42ddfbf798ab13e5ed2470217",
+    "DAC6_Sky130_Hot_Fast.asc": "9e5de0e236919bb34fdc743443ecf200276ae6376c0c2bcf231ef170cffe8875",
+    "DAC6_Sky130_Integration.asc": "41e1a023141e53a3067a84c436414634d2aacfbaa742293610a1978b39d40136",
+    "DAC6_Sky130_Min_Supply.asc": "164c176ed895732e0284c226ff26117a303758b93bcc7b6be5f51b1e6107bbec",
+    "DAC6_Sky130_Overload.asc": "bcafc629d7a10ffd95e52e5aeeb49ae96ef7ff519b3c27238f229356f4d01646",
+    "DAC6_Sky130_Protocol.asc": "dd38b7ebc56c071c740a1e3acaa7f22095c273b127278ebdcf05d7a4268d6bf7",
+    "DAC6_Sky130_Protocol_Min.asc": "1422ca4fbe2a20edd69820cb41f54c5aab1aec1d61f51a65e4beec706352ccb0",
+    "DAC6_Sky130_Tap_Probe.asc": "c009388447317dab3ce289806fac3100d5fd0d618a07c76ee6c14d67ba15e71b",
+    "DAC6_Sky130_Top.asc": "3c59731788a3e8ca649abe1d0c5e486f1db33cc4c6302519d5edf87a2a570cac",
+    "DAC_Bank8.asc": "02a1fd9bed04ae5d1ee04aaab0296b2645eda37ce7761da88186039f31725255",
+    "DAC_Bank8.asy": "b9bdadc40e82b093c1420f118316bf795c8c43b5ae7735b12f6495295877459e",
+    "DAC_Buffer.asc": "8f578e5dc24d562658cfcd50a9c94a2ea96894b2e07ba44985ccc5fa0bf4d8d8",
+    "DAC_Buffer.asy": "cddf250485b155d8ade0e4236b63b189e802bc94542cf0b081f8201f1802e4ba",
+    "DAC_Control.asc": "a19de2690308f8a12cc22c9d28ea83c962b07c94064f9dce99d7103b6ab04b73",
+    "DAC_Control.asy": "4cc2fcc4b124f31d91347cdec83bcd48e253297ee9380a24409f623599557c2f",
+    "DAC_LevelShift.asc": "4e9049be068824a08b32a722336635bf8199f3b3d20a2304c6d3946276c4b7ed",
+    "DAC_LevelShift.asy": "eca939b42bd6f1536e768610e81b26d5daa539d38f1ef30c12eb2715ad950461",
+    "DAC_Mux2.asc": "e89967e9ea2408b8edc98dd049aef0af48d0b39200c960902ded6bcd4a49e714",
+    "DAC_Mux2.asy": "a9a1d4f7dcd47cae134227cfb88235bbb675853d4c284576a04022f087e8782c",
+    "DAC_Mux8.asc": "9f3a80fea9b349d99b9a04b831925b0735201a3c26a64314b703eb720dde177f",
+    "DAC_Mux8.asy": "e0451447a4f5253094dc014a923442837a415ae6b4d628b86b916c37ce53bc3e",
+    "DAC_String64.asc": "f13e570ac88b90caa07fbff080b7022a04f897f1c772ee8163668166129fa57c",
+    "DAC_String64.asy": "1869254e9166d296c14120185dd4d2658d93294ecd3d0af0544643b8d8a04ff3",
+    "Sky130_Adapters.lib": "07fce063825543fce31a34625495a76d78ca2a045caf26e27bb196598c28f1c8",
+    "Sky_Bias.asc": "8f32d92740331682a4510fe8713ef0971efdcec2de0e53953369b0daed6d4cf6",
+    "Sky_Bias.asy": "a0df8e72a7d30097aa5c0db6590e59e6a440985d9daae1f0a4869094b624fd1e",
+    "Sky_C.asy": "1286b71e8e4ba92b5cdd1bf9ccabba555a37648c1c29e7fb3e39e729512d6462",
+    "Sky_InputN.asc": "dbafb5ce98e36c6bc512a0491642e712ea9b4eb79279eaa4d2c851714cea90b5",
+    "Sky_InputN.asy": "e0efccae26d3ad380404fdefa5ee949b79e62a8a85bcbf8b31a9dd6d4105d106",
+    "Sky_InputP.asc": "2c4562cc94d2b139f56c32d3f417376f2885e958a70dcdb68caba031af27fc9f",
+    "Sky_InputP.asy": "63b735a132b2e0244de905c8541fe2b2ec46a99a175d66646696fcc7fe034cb6",
+    "Sky_OTA.asc": "0ffb03a255ce388f0668648ffc40b4ea3c4ad422d049ae8727e437845db797f8",
+    "Sky_OTA.asy": "2c9a4f6edf842cf50290d26dd64ecb6b9d564bbd558e2dd5354b6df2d1b1000f",
+    "Sky_Output.asc": "a42b6830e7aed8e715ef2ad0e3687add0084010b2b078a3b5c1b3fcaba2f960a",
+    "Sky_Output.asy": "259411f945e1a79afd4b60fd2d1c2d1fea9d0c911f8e35cf90e2e798b26281bd",
+    "Sky_R.asy": "f63037d1450115733ad3b678ced8bae3aaa53420b78308bace81865ebbb05c93",
+    "data_d0.txt": "fb06409e5645151663d269e2ff0f9f97f7bdcd30d68da927e796eabb359c8c69",
+    "data_d1.txt": "62e0274ee4c73021b3ef0e7ea460897fc8f697f54f8dbe48ed3e37b1efa83015",
+    "data_d2.txt": "671a3a033b668578f9fb619ce860f089c6d5a3eafdddd07ffb1cd4ea548be919",
+    "data_d3.txt": "036a5dc130b89a64e8fe75530363f09449017b2954bb1f0e4786ba30c3f1fd3b",
+    "data_d4.txt": "4464074b44a4343bf52e35d1d835ba2439f3376355951a8296d98325caa1ccc2",
+    "data_d5.txt": "f546f559a824b160d8d26a98075777ac0f96f1371c167e2f0ea215e865f2c044",
+    "enable.txt": "f8b7fe7eb70ff0d0f9543fdd33bfccbe764023f25b1f08c685a4c189680c7a0c",
+    "enable_protocol.txt": "28f8a5e517fe388c06db2e64999bf4d0e1bb7d29b86874761fb0028f1c8549ff",
+    "models/sky130_ff.lib": "dd4972e7eaf149bc356546dd0756dca2b25bf9829bb5a3c1c036bcb6237da03c",
+    "models/sky130_fs.lib": "b3a258cb55d55e1ac9e6f0a82ccbd927e36097d4a2fdaba1b1c7c6a87e988b70",
+    "models/sky130_fs_rc_ll.lib": "1eeb962ec14a96c0c64a1cc2b11fe359b784c4a22347cd5e12dc4f11740c9128",
+    "models/sky130_sf.lib": "d2d8f1e57b6f6ef023638839001e2beb7cb169e2e6f72208a57d090317be84b8",
+    "models/sky130_ss.lib": "98c578474bbd39acd77c15506df67da17ac2a4ffe012d75a2cbfa705fb32f03b",
+    "models/sky130_tt.lib": "04b1f92bbb848ae295c5fee4411983ec565e12967cf704507799e92cd52186b5",
+    "requirements-plot.txt": "bde68ffcfb53dd010e2ca394340aee83803b9f8e90ecfb32b1c600cd4d3db081",
+    "stimulus/1p71/data_d0.txt": "f2c2f9a68eb1aa96e4ceb6137daf07a4065a6fbc82648408015c2169865a7cd1",
+    "stimulus/1p71/data_d1.txt": "b5c1260783a5e028fe3afe29bbd2a4a416d8098d264ec8f8a2d0e67fe7d687d4",
+    "stimulus/1p71/data_d2.txt": "ec97f687ccb7cad7e2ef359f4d94987cb737d35f2995ea0fa58816c2ed3e1823",
+    "stimulus/1p71/data_d3.txt": "88a3e68fb454806c12ee2c2c1ca21ec2f949f365901d60d19a936e42cb151566",
+    "stimulus/1p71/data_d4.txt": "459db0dc086e3828d467c8cac82d9c29329df27dabc827f316cbf2480031c54a",
+    "stimulus/1p71/data_d5.txt": "95ce032005a750c42067bb3f61503d772111403be0df8cc18bb5b7dd8148f020",
+    "stimulus/1p71/enable.txt": "e15b7b7b0d63462461f2a2283eef799207310863efaeedc53bbc31e5edc0a685",
+    "stimulus/1p71/enable_protocol.txt": "6d53d4815d2c66502789d15f3199380085352975ed7a0968ec7e315d0da6eebb",
+    "stimulus/1p89/data_d0.txt": "f7bc7b108a9f8d6e4310ad287b53a1b4137f5d7a64b321623eb2c3a0f960b61d",
+    "stimulus/1p89/data_d1.txt": "0e04efa2dc7143086856255d122fcf0f3293cce504be7602abcbadc23159b3ae",
+    "stimulus/1p89/data_d2.txt": "7f81756ac2168192f28bac0725cc6ca86a821aa31c3fcf5ddb294961a03cecac",
+    "stimulus/1p89/data_d3.txt": "632d22df288a3a25abd5a5dea3c8d67ece4b45b48d572f7d2b9eb979944b1de3",
+    "stimulus/1p89/data_d4.txt": "fa5ca38ec386963444e45bb8c2d8da9e744c1f22f986dae0a9241b0d3f1d6cc5",
+    "stimulus/1p89/data_d5.txt": "9ab88f8b7722a58e4b5032c289768a4400f9a4b4aec1100ed72c88cd44aaacd2",
+    "stimulus/1p89/enable.txt": "7fe1063e2caa0a6014556f4ea0fad0ed6892a5f31304a5945da809d8b14c1304",
+    "stimulus/1p89/enable_protocol.txt": "c4ca0e23c970fc83f42fc00b23748711defdd1551e7ee5fec04d9d0f2b121f05",
+    "validation/LT_AC_ff.cir": "1d9b8237f28ff34ed126ca552be299af85483c065756600e20fb34b8de2c9d87",
+    "validation/LT_AC_ff_hh.cir": "05118f6b5703641330739b1373434f4aa85b631b83fa0f5310327965b59ed502",
+    "validation/LT_AC_ff_hl.cir": "468dd32467eb88e562d97d1de35d0cfcd9b6ac3259cbf490066712cea6952bbc",
+    "validation/LT_AC_ff_lh.cir": "7835d89de146d360d7976db652717764985a54093c3ce56be6b12b1d3e2ed511",
+    "validation/LT_AC_ff_ll.cir": "33d0e33f4228bcccecdbba7cfaee88ca429ca556f8224501ac5849309d7f949f",
+    "validation/LT_AC_fs.cir": "26cfa5c5b6c8b11389639dea4ffd96f7c11dece3cf1495e01a44341be781f238",
+    "validation/LT_AC_fs_hh.cir": "570c05f4cd2acbb4404300c116b08dbcbedeb56565629e4fc4f8acd25cccb2d0",
+    "validation/LT_AC_fs_hl.cir": "aba64857c099910f6e702b0c9a20aa144eca2bcbd974ff98ec624ed141c7c0fd",
+    "validation/LT_AC_fs_lh.cir": "8b4c788607b7a5e7aa09144764729e8223e17fc84e6b0bcb99e68c7fdd9b4d22",
+    "validation/LT_AC_fs_ll.cir": "2f9fbd94e671f52620c324f4ec76eed8090f968e34fa8167c2348a73e71e4669",
+    "validation/LT_AC_sf.cir": "8fa77668fa6d6ce7a59bd1b3c2c0d36bb0113fc9805f24b8579d113e904ebaeb",
+    "validation/LT_AC_sf_hh.cir": "993f336385e84a1e3b41345b5df9c8fd5a889f1f60cfb84dab42041a48182b22",
+    "validation/LT_AC_sf_hl.cir": "f01b6685edc39ffe3ae49380cd217681f3dc80bba017d7a132ed453b0f8a3941",
+    "validation/LT_AC_sf_lh.cir": "10f2be3f21064c22f8f71b950515e1cf9e3ae03e728a1bafbaabe09c7b8e1140",
+    "validation/LT_AC_sf_ll.cir": "70418e9c11e11b74197e2f655e85b0cb9327c7a019e595424f320cf1ef863905",
+    "validation/LT_AC_ss.cir": "a575c270e43470271313517656a8f5f951866d0afc6454ada72c2f28d3dfbc64",
+    "validation/LT_AC_ss_hh.cir": "26276ac7912311585c6af650882f6058296587e15de4781e74d3d2c273c12925",
+    "validation/LT_AC_ss_hl.cir": "e55776511d7b496296af7d0d4c5bc9624a9b94bb658f91e4be2cd7a39ee66903",
+    "validation/LT_AC_ss_lh.cir": "be7ea6da5ec025fdc53fe0e6f2cee44aefff22808ed1f6dae9334dd3c4494f9f",
+    "validation/LT_AC_ss_ll.cir": "df9e6c42de50fa23c13bc5a2eb56c403c213e8c62d874fba83e4dc497e687cc8",
+    "validation/LT_AC_tt.cir": "e84cc73a6295a22baa1152a9a84e85e3d6640578607e08501ad848a48ed5a80d",
+    "validation/LT_AC_tt_hh.cir": "f01485e6424696d8c6dcce97218744ca984953f49acf704ddf9f54f45d9508d9",
+    "validation/LT_AC_tt_hl.cir": "f3c14daea6618d684de316b59f23a3cb04d04d71073a7beb42f04a7c97431711",
+    "validation/LT_AC_tt_lh.cir": "1a61f95146157e004d71be6e7ba93f89a807edfb504d9a996401a73f041d9d4b",
+    "validation/LT_AC_tt_ll.cir": "90a975b3f5e40861d9301d4dac884ee6ec7c8b129f69c36f6219355a66544308",
+    "validation/buffer_circuit.lib": "ec022e599e4767449eaf37f97c1602ae4d358abc0771671df50d238af2fce4a0",
+    "validation/dac_circuit.lib": "cbf24fed6672f91998947899ac25d3c65c040dbcd27d877ed01d6750bf672b6a",
+    "validation/models/buffer_ff.lib": "d4d8dcfd26ba32cca75a2cf0bd22547c743c01bd13243281de9d036db682cedd",
+    "validation/models/buffer_ff_hh.lib": "2f385e5ca05965d3fb6b6dc8cdc5953638e75e30a709ac7912c76dbd17d59102",
+    "validation/models/buffer_ff_hl.lib": "00c326586e10a586982dc90e25e5a9aee42234a54589274aaa6ba142b6efea57",
+    "validation/models/buffer_ff_lh.lib": "a4770d2a46adde5d9b5c920031445933570d93b33b71cf1ecec699ec56e2c086",
+    "validation/models/buffer_ff_ll.lib": "339f07cb31443d79edd11c596e6ac723866817a1912c5ad838b2333812f1df87",
+    "validation/models/buffer_fs.lib": "cf2d5efd15cbb3ba772bfcc65166e49879a1998408da8ba0216e00ae8c14a0cf",
+    "validation/models/buffer_fs_hh.lib": "be9fbd3c0724a28ac6531b00e70dc3d2011c247e2d837b4abd8697a31dd99b14",
+    "validation/models/buffer_fs_hl.lib": "230d3ba85f3b5b1394f8090d3804d307646536641c900500ba90073f8e54b4bb",
+    "validation/models/buffer_fs_lh.lib": "038be18ba34a9c5ff426e3c21515bfa7942f805d6f17f7cb718d25cae60788fe",
+    "validation/models/buffer_fs_ll.lib": "8da660234eec5ab1c6310e9cd6f47edfa77973bcd72912af1aaa8bbccbbf5212",
+    "validation/models/buffer_sf.lib": "db8300f7bf616580be4985c3759df4e38788ce6b4a839efcca20b7cf851b7a9b",
+    "validation/models/buffer_sf_hh.lib": "c1be38824458b7c4d9d101e9f116c0538c64803a0b02159840439f761379c05e",
+    "validation/models/buffer_sf_hl.lib": "f7126c75c677b9fe27c085a9fc5c663d2c161f96dfabf71bdb84dc159b90f4ee",
+    "validation/models/buffer_sf_lh.lib": "9571405d8fdde40072fba17d4303196491d4080d26187d27affe3b2b394fb91e",
+    "validation/models/buffer_sf_ll.lib": "567692f4c3b24f8d7f005030403f30e27f4cce870b80bf7680cd4958f12a3cbb",
+    "validation/models/buffer_ss.lib": "b72d326a80d1691a6f5498d1866358c66de874e4da46242c113d8014857f947f",
+    "validation/models/buffer_ss_hh.lib": "92c552585a5ded1e72f157cc109dbc253b3ffdd4af9c87276e193cc7146364be",
+    "validation/models/buffer_ss_hl.lib": "a76ffdda9157a3e9d72d054f09cc090b324e73e640aa636fc3c85fb484ddece4",
+    "validation/models/buffer_ss_lh.lib": "ea9068c3ab75f86f26d3192d635fd70c6d015128cb78b57fe268f96a5628d928",
+    "validation/models/buffer_ss_ll.lib": "fa9b0c835fccd74255a055982899b9f30cb023f4ec371d503669e5659a2e5878",
+    "validation/models/buffer_tt.lib": "309162fb8b3671df122aefc95cd83126b9969885ef38223fa77643e7e739e84b",
+    "validation/models/buffer_tt_hh.lib": "a8549f4ab672d336903da93023f3c714a9b05d014efc33bb25fc1037252ddebf",
+    "validation/models/buffer_tt_hl.lib": "f02e16bec17d6162dddc8295bafe6898e422273429f53f6aafaef9ad95d298a7",
+    "validation/models/buffer_tt_lh.lib": "f25320baac7ebb09ae3b66f0153c605959736ba5569c7f22f0a73ba535ac5a0f",
+    "validation/models/buffer_tt_ll.lib": "774501f59870654373ed1f408e87deadba348af3bab3258876498eea29e81719",
+    "validation/requirements.txt": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac"
+  }
+}

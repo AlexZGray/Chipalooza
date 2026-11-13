@@ -1,0 +1,21 @@
+{
+  "proposal": "docs/proposal/v2/Chipalooza_DAC6_Proposal.md",
+  "core": "DAC6_Sky130_Core.asc",
+  "digital_inputs": 7,
+  "digital_status_outputs": 0,
+  "shared_analog": [
+    "VREFH",
+    "VREFL",
+    "VTAP"
+  ],
+  "dedicated_pads_requested": [
+    "VOUT"
+  ],
+  "bias_currents_uA": [
+    1
+  ],
+  "simulation_names": {
+    "VTAP": "TAP in the architecture testbench",
+    "EN_MON": "internal inspection node; no harness status allocation"
+  }
+}

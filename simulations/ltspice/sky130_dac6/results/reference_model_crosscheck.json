@@ -1,0 +1,98 @@
+[
+  {
+    "case": "fs_25_lt",
+    "normalized_current_errors": {
+      "i(vdln)": 3.436086065809408e-08,
+      "i(vdlp)": 2.8883990020761177e-08,
+      "i(vdn)": 3.714357575439024e-08,
+      "i(vdp)": 3.6956170147391665e-08,
+      "i(vr)": 2.491651128442957e-08
+    }
+  },
+  {
+    "case": "cap_ss_110_lt",
+    "normalized_current_errors": {
+      "i(vc)": 9.078318218632018e-22
+    }
+  },
+  {
+    "case": "ff_-40_lt",
+    "normalized_current_errors": {
+      "i(vdln)": 2.6360283406400482e-08,
+      "i(vdlp)": 3.1586841731353e-08,
+      "i(vdn)": 3.169152352103774e-08,
+      "i(vdp)": 2.987618123773589e-08,
+      "i(vr)": 3.738972095587846e-08
+    }
+  },
+  {
+    "case": "cap_fs_25_lt",
+    "normalized_current_errors": {
+      "i(vc)": 5.434425784855844e-22
+    }
+  },
+  {
+    "case": "ss_110_lt",
+    "normalized_current_errors": {
+      "i(vdln)": 3.0335529136379306e-08,
+      "i(vdlp)": 3.800163127414941e-08,
+      "i(vdn)": 4.5912027234239616e-08,
+      "i(vdp)": 3.547149265940872e-08,
+      "i(vr)": 5.790035439460632e-09
+    }
+  },
+  {
+    "case": "cap_tt_25_lt",
+    "normalized_current_errors": {
+      "i(vc)": 5.434425784855844e-22
+    }
+  },
+  {
+    "case": "cap_sf_25_lt",
+    "normalized_current_errors": {
+      "i(vc)": 5.434425784855844e-22
+    }
+  },
+  {
+    "case": "sf_25_lt",
+    "normalized_current_errors": {
+      "i(vdln)": 2.433849919408556e-08,
+      "i(vdlp)": 2.3800841602484055e-08,
+      "i(vdn)": 3.138776781806573e-08,
+      "i(vdp)": 2.7183474087284828e-08,
+      "i(vr)": 2.491651128442957e-08
+    }
+  },
+  {
+    "case": "tt_25_lt",
+    "normalized_current_errors": {
+      "i(vdln)": 2.370126333070635e-08,
+      "i(vdlp)": 4.0339950006455695e-08,
+      "i(vdn)": 3.2914182829635597e-08,
+      "i(vdp)": 2.8031253475653614e-08,
+      "i(vr)": 2.491651128442957e-08
+    }
+  },
+  {
+    "case": "cap_ff_-40_lt",
+    "normalized_current_errors": {
+      "i(vc)": 3.266938044075189e-22
+    }
+  },
+  {
+    "case": "tt_25_final",
+    "normalized_current_errors": {
+      "i(vdln)": 2.370126333070635e-08,
+      "i(vdlp)": 4.0339950006455695e-08,
+      "i(vdn)": 2.418207669781148e-08,
+      "i(vdp)": 2.0036234173690555e-08,
+      "i(vr)": 3.002738125778491e-08
+    }
+  },
+  {
+    "case": "cap_tt_25_final",
+    "normalized_current_errors": {
+      "i(vc)": 8.206480180948541e-22
+    }
+  }
+]

@@ -1,0 +1,5452 @@
+{
+  "LT_AC_tt": [
+    {
+      "case": 1,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 2,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 4,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 6,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 8,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 10,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 11,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 12,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 13,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 14,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 15,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 16,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 17,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 18,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 19,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 20,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 21,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 22,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 23,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 24,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 25,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 26,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 27,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 28,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 29,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 30,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 31,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 32,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 33,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 34,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 35,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 36,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 37,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 38,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 39,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 40,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 41,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 42,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 43,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 44,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 45,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 46,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 47,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 48,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 49,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 50,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 51,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 52,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 53,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 54,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 55,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 56,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 57,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 58,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 59,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 60,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 61,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 62,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 63,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 64,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 65,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 66,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 67,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 68,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 69,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 70,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 71,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 72,
+      "corner": "tt",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_tt_hh": [
+    {
+      "case": 1,
+      "corner": "tt",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "tt",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "tt",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "tt",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "tt",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "tt",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "tt",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "tt",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "tt",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_tt_hl": [
+    {
+      "case": 1,
+      "corner": "tt",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "tt",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "tt",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "tt",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "tt",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "tt",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "tt",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "tt",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "tt",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_tt_lh": [
+    {
+      "case": 1,
+      "corner": "tt",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "tt",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "tt",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "tt",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "tt",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "tt",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "tt",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "tt",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "tt",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_tt_ll": [
+    {
+      "case": 1,
+      "corner": "tt",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "tt",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "tt",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "tt",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "tt",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "tt",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "tt",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "tt",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "tt",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_ff": [
+    {
+      "case": 1,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 2,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 4,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 6,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 8,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 10,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 11,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 12,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 13,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 14,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 15,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 16,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 17,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 18,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 19,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 20,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 21,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 22,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 23,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 24,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 25,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 26,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 27,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 28,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 29,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 30,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 31,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 32,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 33,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 34,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 35,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 36,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 37,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 38,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 39,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 40,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 41,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 42,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 43,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 44,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 45,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 46,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 47,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 48,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 49,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 50,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 51,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 52,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 53,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 54,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 55,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 56,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 57,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 58,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 59,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 60,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 61,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 62,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 63,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 64,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 65,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 66,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 67,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 68,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 69,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 70,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 71,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 72,
+      "corner": "ff",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_ff_hh": [
+    {
+      "case": 1,
+      "corner": "ff",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "ff",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "ff",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "ff",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "ff",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "ff",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "ff",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "ff",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "ff",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_ff_hl": [
+    {
+      "case": 1,
+      "corner": "ff",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "ff",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "ff",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "ff",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "ff",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "ff",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "ff",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "ff",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "ff",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_ff_lh": [
+    {
+      "case": 1,
+      "corner": "ff",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "ff",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "ff",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "ff",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "ff",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "ff",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "ff",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "ff",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "ff",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_ff_ll": [
+    {
+      "case": 1,
+      "corner": "ff",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "ff",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "ff",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "ff",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "ff",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "ff",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "ff",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "ff",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "ff",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_ss": [
+    {
+      "case": 1,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 2,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 4,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 6,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 8,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 10,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 11,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 12,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 13,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 14,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 15,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 16,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 17,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 18,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 19,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 20,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 21,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 22,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 23,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 24,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 25,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 26,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 27,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 28,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 29,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 30,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 31,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 32,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 33,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 34,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 35,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 36,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 37,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 38,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 39,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 40,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 41,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 42,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 43,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 44,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 45,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 46,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 47,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 48,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 49,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 50,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 51,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 52,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 53,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 54,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 55,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 56,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 57,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 58,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 59,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 60,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 61,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 62,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 63,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 64,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 65,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 66,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 67,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 68,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 69,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 70,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 71,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 72,
+      "corner": "ss",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_ss_hh": [
+    {
+      "case": 1,
+      "corner": "ss",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "ss",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "ss",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "ss",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "ss",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "ss",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "ss",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "ss",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "ss",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_ss_hl": [
+    {
+      "case": 1,
+      "corner": "ss",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "ss",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "ss",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "ss",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "ss",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "ss",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "ss",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "ss",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "ss",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_ss_lh": [
+    {
+      "case": 1,
+      "corner": "ss",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "ss",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "ss",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "ss",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "ss",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "ss",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "ss",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "ss",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "ss",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_ss_ll": [
+    {
+      "case": 1,
+      "corner": "ss",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "ss",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "ss",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "ss",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "ss",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "ss",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "ss",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "ss",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "ss",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_fs": [
+    {
+      "case": 1,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 2,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 4,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 6,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 8,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 10,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 11,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 12,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 13,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 14,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 15,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 16,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 17,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 18,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 19,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 20,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 21,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 22,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 23,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 24,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 25,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 26,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 27,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 28,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 29,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 30,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 31,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 32,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 33,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 34,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 35,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 36,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 37,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 38,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 39,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 40,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 41,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 42,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 43,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 44,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 45,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 46,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 47,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 48,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 49,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 50,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 51,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 52,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 53,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 54,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 55,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 56,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 57,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 58,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 59,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 60,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 61,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 62,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 63,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 64,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 65,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 66,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 67,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 68,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 69,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 70,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 71,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 72,
+      "corner": "fs",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_fs_hh": [
+    {
+      "case": 1,
+      "corner": "fs",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "fs",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "fs",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "fs",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "fs",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "fs",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "fs",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "fs",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "fs",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_fs_hl": [
+    {
+      "case": 1,
+      "corner": "fs",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "fs",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "fs",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "fs",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "fs",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "fs",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "fs",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "fs",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "fs",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_fs_lh": [
+    {
+      "case": 1,
+      "corner": "fs",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "fs",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "fs",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "fs",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "fs",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "fs",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "fs",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "fs",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "fs",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_fs_ll": [
+    {
+      "case": 1,
+      "corner": "fs",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "fs",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "fs",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "fs",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "fs",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "fs",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "fs",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "fs",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "fs",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_sf": [
+    {
+      "case": 1,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 2,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 4,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 6,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 8,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 10,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 11,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 12,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 13,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 14,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 15,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 16,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 17,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 18,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 19,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 20,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 21,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 22,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 23,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 24,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": -40,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 25,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 26,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 27,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 28,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 29,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 30,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 31,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 32,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 33,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 34,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 35,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 36,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 37,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 38,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 39,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 40,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 41,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 42,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 43,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 44,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 45,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 46,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 47,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 48,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 25,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 49,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 50,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 51,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 52,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 53,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 54,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 55,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 56,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 57,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 58,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 59,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 60,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 61,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 62,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 63,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 64,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 65,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 66,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 67,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 0
+    },
+    {
+      "case": 68,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 69,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 0
+    },
+    {
+      "case": 70,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 71,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 0
+    },
+    {
+      "case": 72,
+      "corner": "sf",
+      "rc": "nom",
+      "temp": 110,
+      "vdd": 3.465,
+      "ibias_uA": 1.2,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_sf_hh": [
+    {
+      "case": 1,
+      "corner": "sf",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "sf",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "sf",
+      "rc": "hh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "sf",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "sf",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "sf",
+      "rc": "hh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "sf",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "sf",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "sf",
+      "rc": "hh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_sf_hl": [
+    {
+      "case": 1,
+      "corner": "sf",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "sf",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "sf",
+      "rc": "hl",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "sf",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "sf",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "sf",
+      "rc": "hl",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "sf",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "sf",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "sf",
+      "rc": "hl",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_sf_lh": [
+    {
+      "case": 1,
+      "corner": "sf",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "sf",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "sf",
+      "rc": "lh",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "sf",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "sf",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "sf",
+      "rc": "lh",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "sf",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "sf",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "sf",
+      "rc": "lh",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ],
+  "LT_AC_sf_ll": [
+    {
+      "case": 1,
+      "corner": "sf",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 2,
+      "corner": "sf",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 3,
+      "corner": "sf",
+      "rc": "ll",
+      "temp": -40,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 4,
+      "corner": "sf",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 5,
+      "corner": "sf",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 6,
+      "corner": "sf",
+      "rc": "ll",
+      "temp": 25,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    },
+    {
+      "case": 7,
+      "corner": "sf",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 0.3,
+      "cl_pF": 20
+    },
+    {
+      "case": 8,
+      "corner": "sf",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 1.65,
+      "cl_pF": 20
+    },
+    {
+      "case": 9,
+      "corner": "sf",
+      "rc": "ll",
+      "temp": 110,
+      "vdd": 3.135,
+      "ibias_uA": 0.8,
+      "vin": 2.9578125,
+      "cl_pF": 20
+    }
+  ]
+}

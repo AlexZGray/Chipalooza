@@ -1,0 +1,501 @@
+{
+  "Top": {
+    "status": "PASS",
+    "case": "Top",
+    "code0_V": 0.3002528250217438,
+    "code63_V": 2.957956314086914,
+    "max_abs_error_LSB": 0.007838779025606585,
+    "zero_error_LSB": 0.005992889404297138,
+    "gain_error_LSB": -0.0025839628996756664,
+    "max_abs_DNL_LSB": 0.002327247902198959,
+    "max_abs_endpoint_INL_LSB": 0.008216366776297137,
+    "max_settling_us": 10.227035816120708,
+    "settling": [
+      {
+        "slot": 65,
+        "code": 63,
+        "time_us": 10.22702143446859
+      },
+      {
+        "slot": 66,
+        "code": 0,
+        "time_us": 9.80751967544647
+      },
+      {
+        "slot": 67,
+        "code": 31,
+        "time_us": 4.341388959131984
+      },
+      {
+        "slot": 68,
+        "code": 32,
+        "time_us": 1.0138329601177762
+      },
+      {
+        "slot": 69,
+        "code": 31,
+        "time_us": 0.9710173450678747
+      },
+      {
+        "slot": 70,
+        "code": 32,
+        "time_us": 1.0179638402678728
+      },
+      {
+        "slot": 71,
+        "code": 63,
+        "time_us": 6.181420809999762
+      },
+      {
+        "slot": 74,
+        "code": 0,
+        "time_us": 0.0
+      },
+      {
+        "slot": 75,
+        "code": 63,
+        "time_us": 10.167347586658403
+      },
+      {
+        "slot": 76,
+        "code": 0,
+        "time_us": 9.799274764718362
+      },
+      {
+        "slot": 77,
+        "code": 63,
+        "time_us": 10.227035816120708
+      },
+      {
+        "slot": 78,
+        "code": 0,
+        "time_us": 9.813220526636023
+      }
+    ],
+    "max_steady_IDDA_uA": 145.56368114426732,
+    "peak_IDDA_uA": 2471.7608466744423,
+    "string_current_uA": 42.21663766657003,
+    "disabled_output_V": 0.3002667160914903,
+    "max_steady_IDDD_uA": 0.004514472300246496,
+    "max_reference_current_uA": 42.216808651573956
+  },
+  "Min_Supply": {
+    "status": "PASS",
+    "case": "Min_Supply",
+    "code0_V": 0.3007352650165558,
+    "code63_V": 2.957996368408203,
+    "max_abs_error_LSB": 0.017987286603008204,
+    "zero_error_LSB": 0.017428504096137415,
+    "gain_error_LSB": -0.013070141827627054,
+    "max_abs_DNL_LSB": 0.002114755135995461,
+    "max_abs_endpoint_INL_LSB": 0.010210101146128636,
+    "max_settling_us": 13.473729372578784,
+    "settling": [
+      {
+        "slot": 65,
+        "code": 63,
+        "time_us": 13.473673302301023
+      },
+      {
+        "slot": 66,
+        "code": 0,
+        "time_us": 12.04050715620554
+      },
+      {
+        "slot": 67,
+        "code": 31,
+        "time_us": 5.574470157790682
+      },
+      {
+        "slot": 68,
+        "code": 32,
+        "time_us": 1.4093978191499767
+      },
+      {
+        "slot": 69,
+        "code": 31,
+        "time_us": 1.2955783136522903
+      },
+      {
+        "slot": 70,
+        "code": 32,
+        "time_us": 1.4206434250920927
+      },
+      {
+        "slot": 71,
+        "code": 63,
+        "time_us": 8.419583072233685
+      },
+      {
+        "slot": 74,
+        "code": 0,
+        "time_us": 0.0
+      },
+      {
+        "slot": 75,
+        "code": 63,
+        "time_us": 13.473673972058675
+      },
+      {
+        "slot": 76,
+        "code": 0,
+        "time_us": 12.040504187554173
+      },
+      {
+        "slot": 77,
+        "code": 63,
+        "time_us": 13.473729372578784
+      },
+      {
+        "slot": 78,
+        "code": 0,
+        "time_us": 12.040505516367102
+      }
+    ],
+    "max_steady_IDDA_uA": 116.4300920208916,
+    "peak_IDDA_uA": 2013.9487460255623,
+    "string_current_uA": 40.360697312280536,
+    "disabled_output_V": 0.3007354140281677,
+    "max_steady_IDDD_uA": 0.005542286089294597,
+    "max_reference_current_uA": 40.361461287830025
+  },
+  "Hot_Fast": {
+    "status": "PASS",
+    "case": "Hot_Fast",
+    "code0_V": 0.29991474747657776,
+    "code63_V": 2.9579787254333496,
+    "max_abs_error_LSB": 0.008887396918400672,
+    "zero_error_LSB": -0.0020208005551936026,
+    "gain_error_LSB": 0.005960958975324333,
+    "max_abs_DNL_LSB": 0.0030336733217593004,
+    "max_abs_endpoint_INL_LSB": 0.012259844959938045,
+    "max_settling_us": 7.922102742059269,
+    "settling": [
+      {
+        "slot": 65,
+        "code": 63,
+        "time_us": 7.713083072122435
+      },
+      {
+        "slot": 66,
+        "code": 0,
+        "time_us": 7.9220987515976615
+      },
+      {
+        "slot": 67,
+        "code": 31,
+        "time_us": 3.5977793469629815
+      },
+      {
+        "slot": 68,
+        "code": 32,
+        "time_us": 1.0895137605151581
+      },
+      {
+        "slot": 69,
+        "code": 31,
+        "time_us": 1.1038590558339751
+      },
+      {
+        "slot": 70,
+        "code": 32,
+        "time_us": 1.0901829601431614
+      },
+      {
+        "slot": 71,
+        "code": 63,
+        "time_us": 4.43960593409301
+      },
+      {
+        "slot": 74,
+        "code": 0,
+        "time_us": 0.0
+      },
+      {
+        "slot": 75,
+        "code": 63,
+        "time_us": 7.713084766073838
+      },
+      {
+        "slot": 76,
+        "code": 0,
+        "time_us": 7.922102306204791
+      },
+      {
+        "slot": 77,
+        "code": 63,
+        "time_us": 7.713081558177216
+      },
+      {
+        "slot": 78,
+        "code": 0,
+        "time_us": 7.922102742059269
+      }
+    ],
+    "max_steady_IDDA_uA": 176.5422598955585,
+    "peak_IDDA_uA": 2358.7867617607117,
+    "string_current_uA": 40.36036912334499,
+    "disabled_output_V": 0.2999148666858673,
+    "max_steady_IDDD_uA": 2.4155287974281237,
+    "max_reference_current_uA": 40.361086576012895
+  },
+  "Cold_Skew": {
+    "status": "PASS",
+    "case": "Cold_Skew",
+    "code0_V": 0.2995744049549103,
+    "code63_V": 2.957873582839966,
+    "max_abs_error_LSB": 0.011468263545087556,
+    "zero_error_LSB": -0.010088178846570917,
+    "gain_error_LSB": 0.011536068386493315,
+    "max_abs_DNL_LSB": 0.0032540780526619795,
+    "max_abs_endpoint_INL_LSB": 0.007094664127946628,
+    "max_settling_us": 12.661165497517349,
+    "settling": [
+      {
+        "slot": 65,
+        "code": 63,
+        "time_us": 12.661165497517349
+      },
+      {
+        "slot": 66,
+        "code": 0,
+        "time_us": 12.002718800956796
+      },
+      {
+        "slot": 67,
+        "code": 31,
+        "time_us": 5.360344271215962
+      },
+      {
+        "slot": 68,
+        "code": 32,
+        "time_us": 1.0059469248042963
+      },
+      {
+        "slot": 69,
+        "code": 31,
+        "time_us": 1.0255398341469866
+      },
+      {
+        "slot": 70,
+        "code": 32,
+        "time_us": 1.0043737571603997
+      },
+      {
+        "slot": 71,
+        "code": 63,
+        "time_us": 7.564405978969894
+      },
+      {
+        "slot": 74,
+        "code": 0,
+        "time_us": 0.0
+      },
+      {
+        "slot": 75,
+        "code": 63,
+        "time_us": 12.636380112888979
+      },
+      {
+        "slot": 76,
+        "code": 0,
+        "time_us": 12.003477247247812
+      },
+      {
+        "slot": 77,
+        "code": 63,
+        "time_us": 12.659093957263778
+      },
+      {
+        "slot": 78,
+        "code": 0,
+        "time_us": 12.002612517486057
+      }
+    ],
+    "max_steady_IDDA_uA": 116.79383896989748,
+    "peak_IDDA_uA": 2660.3182777762413,
+    "string_current_uA": 43.27860733610578,
+    "disabled_output_V": 0.2995932234634254,
+    "max_steady_IDDD_uA": 3.591337668593726e-05,
+    "max_reference_current_uA": 43.27876013121568
+  },
+  "Integration": {
+    "status": "PASS",
+    "case": "Integration",
+    "code0_V": 0.3002528250217438,
+    "code63_V": 2.957956314086914,
+    "max_abs_error_LSB": 0.007838779025606585,
+    "zero_error_LSB": 0.005992889404297138,
+    "gain_error_LSB": -0.0025839628996756664,
+    "max_abs_DNL_LSB": 0.002327247902198959,
+    "max_abs_endpoint_INL_LSB": 0.008216366776297137,
+    "max_settling_us": 10.227035816120708,
+    "settling": [
+      {
+        "slot": 65,
+        "code": 63,
+        "time_us": 10.22702143446859
+      },
+      {
+        "slot": 66,
+        "code": 0,
+        "time_us": 9.80751967544647
+      },
+      {
+        "slot": 67,
+        "code": 31,
+        "time_us": 4.341388959131984
+      },
+      {
+        "slot": 68,
+        "code": 32,
+        "time_us": 1.0138329601177762
+      },
+      {
+        "slot": 69,
+        "code": 31,
+        "time_us": 0.9710173450678747
+      },
+      {
+        "slot": 70,
+        "code": 32,
+        "time_us": 1.0179638402678728
+      },
+      {
+        "slot": 71,
+        "code": 63,
+        "time_us": 6.181420809999762
+      },
+      {
+        "slot": 74,
+        "code": 0,
+        "time_us": 0.0
+      },
+      {
+        "slot": 75,
+        "code": 63,
+        "time_us": 10.167347586658403
+      },
+      {
+        "slot": 76,
+        "code": 0,
+        "time_us": 9.799274764718362
+      },
+      {
+        "slot": 77,
+        "code": 63,
+        "time_us": 10.227035816120708
+      },
+      {
+        "slot": 78,
+        "code": 0,
+        "time_us": 9.813220526636023
+      }
+    ],
+    "max_steady_IDDA_uA": 145.56368114426732,
+    "peak_IDDA_uA": 2471.7608466744423,
+    "string_current_uA": 42.21663766657003,
+    "disabled_output_V": 0.3002667160914903,
+    "max_steady_IDDD_uA": 0.004514472300246496,
+    "max_reference_current_uA": 42.216808651573956,
+    "max_difference_from_Top_uV": 0.0
+  },
+  "Tap_Probe": {
+    "status": "PASS",
+    "case": "Tap_Probe",
+    "code0_V": 0.3002388477325439,
+    "code63_V": 2.957428216934204,
+    "max_abs_error_LSB": 0.0772354691116877,
+    "zero_error_LSB": 0.005661575882522095,
+    "gain_error_LSB": -0.01477050781250842,
+    "max_abs_DNL_LSB": 0.0064810293692127985,
+    "max_abs_endpoint_INL_LSB": 0.0718777772610803,
+    "max_settling_us": 10.22526296861649,
+    "settling": [
+      {
+        "slot": 65,
+        "code": 63,
+        "time_us": 10.225236118601225
+      },
+      {
+        "slot": 66,
+        "code": 0,
+        "time_us": 9.80679370410787
+      },
+      {
+        "slot": 67,
+        "code": 31,
+        "time_us": 4.410732851050509
+      },
+      {
+        "slot": 68,
+        "code": 32,
+        "time_us": 1.3440473945582412
+      },
+      {
+        "slot": 69,
+        "code": 31,
+        "time_us": 1.076232193111988
+      },
+      {
+        "slot": 70,
+        "code": 32,
+        "time_us": 1.3440614443620964
+      },
+      {
+        "slot": 71,
+        "code": 63,
+        "time_us": 6.190968630864421
+      },
+      {
+        "slot": 74,
+        "code": 0,
+        "time_us": 0.0
+      },
+      {
+        "slot": 75,
+        "code": 63,
+        "time_us": 10.176511215185396
+      },
+      {
+        "slot": 76,
+        "code": 0,
+        "time_us": 9.806956703376466
+      },
+      {
+        "slot": 77,
+        "code": 63,
+        "time_us": 10.22526296861649
+      },
+      {
+        "slot": 78,
+        "code": 0,
+        "time_us": 9.806736686695377
+      }
+    ],
+    "max_steady_IDDA_uA": 145.5637684557587,
+    "peak_IDDA_uA": 2295.720623806119,
+    "string_current_uA": 42.29899786878377,
+    "disabled_output_V": 0.3002667196851022,
+    "max_steady_IDDD_uA": 0.004514472351502263,
+    "max_reference_current_uA": 42.50791607773863
+  },
+  "Overload": {
+    "status": "EXPECTED_FAILURE_CONFIRMED",
+    "code63_V": 0.10550147948473661
+  },
+  "Protocol": {
+    "status": "PASS",
+    "max_enable_settling_us": 10.268701525734981,
+    "max_reset_settling_us": 9.802251122894775,
+    "code_setup_us": 5.0,
+    "EN_low_setup_us": 9.9
+  },
+  "Protocol_Min": {
+    "status": "PASS",
+    "max_enable_settling_us": 13.506987150504504,
+    "max_reset_settling_us": 12.07218076921656,
+    "code_setup_us": 5.0,
+    "EN_low_setup_us": 9.9
+  }
+}

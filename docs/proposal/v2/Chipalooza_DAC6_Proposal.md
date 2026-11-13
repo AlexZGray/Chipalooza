@@ -1,6 +1,6 @@
 # Chipalooza Challenge #4 Proposal: Buffered 6-Bit Resistor-String DAC
 
-**Team name:** [TEAM NAME] · **ICARUS team number:** 4
+**Team name:** Flatline · **ICARUS team number:** 4
 
 Attachments sent separately: designer CVs.
 

@@ -1,8 +1,8 @@
 # Chipalooza Challenge #4 Proposal: Buffered 6-Bit Resistor-String DAC
 
-**Team name:** [TEAM NAME] · **ICARUS team number:** [TO BE ASSIGNED]
+**Team name:** [TEAM NAME] · **ICARUS team number:** 4
 
-Attachments sent separately: list of test equipment, designer CVs.
+Attachments sent separately: designer CVs.
 
 ## 1. Type of IP block
 
@@ -24,8 +24,8 @@ Codes may be changed while EN is high. Brief glitches at multi-bit transitions a
 |---|---|---|---|
 | D5–D0 | Digital in, 1.8 V | 6 control inputs | D5 = MSB |
 | EN | Digital in, 1.8 V | 1 control input | May map to the per-block harness enable |
-| VREFH | Analog in | Shared analog line | Sources the string current, about 42 µA |
-| VREFL | Analog in | Shared analog line | Must sink the string current |
+| VREFH | Analog in, 3.0V | Shared analog line | Sources the string current, about 42 µA |
+| VREFL | Analog in, 0.3V | Shared analog line | Must sink the string current |
 | VTAP | Analog test out | Shared analog line | Unbuffered tap voltage; test use only, needs a ≥10 MΩ meter |
 | VOUT | Analog out | 1 dedicated pad (requested) | Buffered output; must not be shared |
 | IBIAS | Bias in | 1 mirrored current, 1 µA | Bias for the buffer |

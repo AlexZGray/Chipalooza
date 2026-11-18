@@ -19,7 +19,7 @@ A voltage-output, 6-bit resistor-string DAC with an integrated unity-gain output
 - **Output buffer:** complementary-input two-stage op-amp at unity gain, Miller-compensated ($60\,\mathrm{pF}$ MIM, $1.5\,\mathrm{k\Omega}$); $1\,\mu\mathrm{A}$ bias mirrored to $10\,\mu\mathrm{A}$ per input pair, $100\,\mu\mathrm{A}$ output
 - **Enable:** EN low connects the buffer input to $V_{\mathrm{REFL}}$. Codes may change while EN is high; brief multi-bit glitches are expected
 
-![Block diagram](figures/block_diagram.png)
+![Block diagram](/docs/proposal/v3/figures/block_diagram.png)
 
 ## 4 Pin List
 
@@ -68,9 +68,9 @@ Conditions: $V_{\mathrm{REFL}} = 0.300\,\mathrm{V}$, $V_{\mathrm{REFH}} = 3.000\
 - **Remaining:** port to Xschem/ngspice and CACE for open-source sign-off; layout with dummies and common-centroid inputs; DRC, LVS and PEX re-simulation over PVT; combined mismatch/PVT; harness switch, pad and $V_{\mathrm{TAP}}$ line models
 - **Silicon:** 64-code sweep over SPI with references on a source/measure unit and a precision DMM (error, DNL, INL, monotonicity); $V_{\mathrm{TAP}}$ vs. $V_{\mathrm{OUT}}$ to separate string and buffer errors; scope settling and glitches ($0 \leftrightarrow 63$, $31 \leftrightarrow 32$); 100 kΩ and 1 MΩ loads; supply, $I_{\mathrm{BIAS}}$ and temperature extremes
 
-![Transfer function](figures/transfer_function.png)
+![Transfer function](/docs/proposal/v3/figures/transfer_function.png)
 
-![Error per code](figures/error_per_code.png)
+![Error per code](/docs/proposal/v3/figures/error_per_code.png)
 
 Accuracy = +0.0078 LSB @ $D = 10$ · Linearity (INL) = −0.0082 LSB @ $D = 48$ · DNL = +0.0023 LSB @ $50 \to 51$ · Monotonic (min. step 42.11 mV)
 

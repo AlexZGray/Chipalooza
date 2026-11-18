@@ -72,7 +72,7 @@ Conditions: $V_{\mathrm{REFL}} = 0.300\,\mathrm{V}$, $V_{\mathrm{REFH}} = 3.000\
 
 ![Error per code](/docs/proposal/v3/figures/error_per_code.png)
 
-Accuracy = +0.0078 LSB @ $D = 10$ · Linearity (INL) = −0.0082 LSB @ $D = 48$ · DNL = +0.0023 LSB @ $50 \to 51$ · Monotonic (min. step 42.11 mV)
+Top: settled output versus code. Bottom: accuracy is the deviation from the ideal line; INL is the deviation from the endpoint line; DNL is the step-size error relative to $1\,\mathrm{LSB}$. One vertical-axis unit is $0.001\,\mathrm{LSB}$ ($42.19\,\mu\mathrm{V}$). All steps are positive (minimum $42.11\,\mathrm{mV}$).
 
 *Sky130 pre-layout simulation (pinned BSIM, poly-resistor and MIM models), TT corner, nominal supplies, 100 kΩ ∥ 20 pF load. Resistors are identical in this run; mismatch is assessed separately.*
 

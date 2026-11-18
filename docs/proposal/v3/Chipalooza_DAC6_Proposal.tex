@@ -244,11 +244,31 @@ code vout errlsb inllsb dnllsb
   \addlegendentry{Linearity (INL): vs.\ endpoint line}
   \addplot[green!50!black, thick, mark=triangle*, mark size=1.5pt, unbounded coords=jump] table[x=code, y=dnllsb] {\dactt};
   \addlegendentry{DNL: step from $D$ to $D+1$, minus 1 LSB}
+  % Error-table values and axis coordinates are in 10^{-3} LSB.
+  % Callouts report LSB, matching the specification and the original summary.
+  \draw[red, <->, >=Latex, line width=0.7pt]
+    (axis cs:10,0) -- (axis cs:10,7.8388);
+  \node[font=\footnotesize, text=red, fill=white, inner sep=2pt,
+        align=left, anchor=west] (accnote) at (axis cs:19,8.4)
+    {Accuracy $+0.0078\,\mathrm{LSB}$\\at $D=10$};
+  \draw[red, line width=0.5pt] (accnote.west) -- (axis cs:10,7.8388);
+  \draw[blue, <->, >=Latex, line width=0.7pt]
+    (axis cs:48,0) -- (axis cs:48,-8.2164);
+  \node[font=\footnotesize, text=blue, fill=white, inner sep=2pt,
+        align=left, anchor=east] (inlnote) at (axis cs:63,-6.5)
+    {INL $-0.0082\,\mathrm{LSB}$\\at $D=48$};
+  \draw[blue, line width=0.5pt] (inlnote.west) -- (axis cs:48,-5.4);
+  \draw[green!50!black, <->, >=Latex, line width=0.7pt]
+    (axis cs:50,0) -- (axis cs:50,2.3272);
+  \node[font=\footnotesize, text=green!50!black, fill=white, inner sep=2pt,
+        align=left, anchor=east] (dnlnote) at (axis cs:63,7.3)
+    {DNL $+0.0023\,\mathrm{LSB}$\\at $50\to51$};
+  \draw[green!50!black, line width=0.5pt] (dnlnote.south) -- (axis cs:50,2.3272);
 \end{axis}
 \end{tikzpicture}
 
 \vspace{1mm}
-{\small Accuracy $= +0.0078\,\mathrm{LSB}$ @ $D=10$ \quad Linearity (INL) $= -0.0082\,\mathrm{LSB}$ @ $D=48$ \quad DNL $= +0.0023\,\mathrm{LSB}$ @ $50 \to 51$ \quad Monotonic (min.\ step $42.11\,\mathrm{mV}$)}
+{\small Top: settled output versus code. Bottom: accuracy is the deviation from the ideal line; INL is the deviation from the endpoint line; DNL is the step-size error relative to $1\,\mathrm{LSB}$. One vertical-axis unit is $0.001\,\mathrm{LSB}$ ($42.19\,\mu\mathrm{V}$). All steps are positive (minimum $42.11\,\mathrm{mV}$).}
 \captionsetup{skip=3pt}\caption*{\footnotesize Sky130 pre-layout simulation (pinned BSIM, poly-resistor and MIM models), TT corner, nominal supplies, $100\,\mathrm{k\Omega} \parallel 20\,\mathrm{pF}$ load. Resistors are identical in this run; mismatch is assessed separately.}
 \end{figure}
 

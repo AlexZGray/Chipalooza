@@ -70,7 +70,7 @@ Conditions: $V_{\mathrm{REFL}} = 0.300\,\mathrm{V}$, $V_{\mathrm{REFH}} = 3.000\
 
 ![Transfer function](/docs/proposal/v3/figures/transfer_function.png)
 
-![Error per code](/docs/proposal/v3/figures/error_per_code.png)
+![Error per code](/docs/proposal/v3/figures/error_per_code_annotated.png)
 
 Top: settled output versus code. Bottom: accuracy is the deviation from the ideal line; INL is the deviation from the endpoint line; DNL is the step-size error relative to $1\,\mathrm{LSB}$. One vertical-axis unit is $0.001\,\mathrm{LSB}$ ($42.19\,\mu\mathrm{V}$). All steps are positive (minimum $42.11\,\mathrm{mV}$).
 

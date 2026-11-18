@@ -1,0 +1,113 @@
+\documentclass[11pt,a4paper,landscape]{article}
+\usepackage[margin=0.6in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\pagestyle{empty}
+
+\pgfplotsset{
+  bigplot/.style={
+    width=\textwidth, height=0.80\textheight,
+    xmin=-1, xmax=64, xtick={0,8,...,56,63},
+    minor x tick num=7,
+    xlabel={Input code $D$},
+    grid=both, grid style={gray!20}, major grid style={gray!35},
+    tick label style={font=\normalsize}, label style={font=\large},
+    title style={font=\Large\bfseries},
+    legend cell align=left, legend style={font=\normalsize, fill=white, fill opacity=0.9, text opacity=1},
+  }
+}
+
+\pgfplotstableread{generic.dat}\generic
+\pgfplotstableread{sky130.dat}\skyw
+
+\begin{document}
+
+% ---------------------------------------------------------------- 1
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[bigplot,
+    title={Transfer function: generic LTspice model (Level-1 CMOS, MCP6001 buffer)},
+    ylabel={$V_{\mathrm{OUT}}$ (V)}, ymin=0.2, ymax=3.1, ytick={0.3,0.6,...,3.0},
+    legend pos=north west]
+  \addplot[red, dashed, thick, domain=0:63] {0.3 + x*0.0421875};
+  \addlegendentry{Ideal line: $V_{\mathrm{REFL}} + D\cdot 42.1875\,\mathrm{mV}$}
+  \addplot[blue, densely dotted, thick, domain=0:63] {0.2954993 + x*(2.9533050-0.2954993)/63};
+  \addlegendentry{Endpoint line (code 0 to 63)}
+  \addplot[only marks, mark=*, mark size=1.6pt, black] table[x=code, y=vout] {\generic};
+  \addlegendentry{Simulated $V_{\mathrm{OUT}}$}
+\end{axis}
+\end{tikzpicture}
+
+\large Accuracy $= -0.107\,\mathrm{LSB}$ ($-4.5\,\mathrm{mV}$) @ $D=62$ \qquad INL $\approx 0$ \qquad DNL $\approx 0$ \qquad Monotonic (min.\ step $42.19\,\mathrm{mV}$)
+\end{center}
+\newpage
+
+% ---------------------------------------------------------------- 2
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[bigplot,
+    title={Error per code: generic LTspice model},
+    ylabel={Error (LSB, $1\,\mathrm{LSB} = 42.19\,\mathrm{mV}$)},
+    ymin=-0.13, ymax=0.03, ytick={-0.12,-0.10,...,0.02},
+    yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=2},
+    legend style={at={(0.98,0.5)}, anchor=east}]
+  \addplot[gray, thick, forget plot] coordinates {(-1,0) (64,0)};
+  \addplot[red, thick, mark=*, mark size=1.8pt] table[x=code, y=errlsb] {\generic};
+  \addlegendentry{Accuracy: $V_{\mathrm{OUT}}$ vs.\ ideal line}
+  \addplot[blue, thick, mark=square*, mark size=1.6pt] table[x=code, y=inllsb] {\generic};
+  \addlegendentry{Linearity (INL): vs.\ endpoint line}
+  \addplot[green!50!black, thick, mark=triangle*, mark size=2pt] table[x=code, y=dnllsb] {\generic};
+  \addlegendentry{DNL: (step from $D$ to $D+1$) $-$ 1 LSB}
+\end{axis}
+\end{tikzpicture}
+
+\large The constant $-0.107\,\mathrm{LSB}$ error is the MCP6001 macromodel's built-in $4.5\,\mathrm{mV}$ offset. INL and DNL are zero because all resistors are identical.
+\end{center}
+\newpage
+
+% ---------------------------------------------------------------- 3
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[bigplot,
+    title={Transfer function: Sky130 pre-layout (TT, nominal supplies)},
+    ylabel={$V_{\mathrm{OUT}}$ (V)}, ymin=0.2, ymax=3.1, ytick={0.3,0.6,...,3.0},
+    legend pos=north west]
+  \addplot[red, dashed, thick, domain=0:63] {0.3 + x*0.0421875};
+  \addlegendentry{Ideal line: $V_{\mathrm{REFL}} + D\cdot 42.1875\,\mathrm{mV}$}
+  \addplot[blue, densely dotted, thick, domain=0:63] {0.3002528 + x*(2.9579563-0.3002528)/63};
+  \addlegendentry{Endpoint line (code 0 to 63)}
+  \addplot[only marks, mark=*, mark size=1.6pt, black] table[x=code, y=vout] {\skyw};
+  \addlegendentry{Simulated $V_{\mathrm{OUT}}$}
+\end{axis}
+\end{tikzpicture}
+
+\normalsize Accuracy $= +0.0078\,\mathrm{LSB}$ ($+0.33\,\mathrm{mV}$) @ $D=10$ \qquad INL $= -0.0082\,\mathrm{LSB}$ @ $D=48$ \qquad DNL $= +0.0023\,\mathrm{LSB}$ @ $50 \to 51$ \qquad Monotonic (min.\ step $42.11\,\mathrm{mV}$)
+\end{center}
+\newpage
+
+% ---------------------------------------------------------------- 4
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[bigplot,
+    title={Error per code: Sky130 pre-layout (TT, nominal supplies)},
+    ylabel={Error (LSB, $1\,\mathrm{LSB} = 42.19\,\mathrm{mV}$)},
+    ymin=-0.010, ymax=0.010, ytick={-0.010,-0.008,...,0.010},
+    yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=3},
+    scaled y ticks=false,
+    legend pos=south west]
+  \addplot[gray, thick, forget plot] coordinates {(-1,0) (64,0)};
+  \addplot[red, thick, mark=*, mark size=1.8pt] table[x=code, y=errlsb] {\skyw};
+  \addlegendentry{Accuracy: $V_{\mathrm{OUT}}$ vs.\ ideal line}
+  \addplot[blue, thick, mark=square*, mark size=1.6pt] table[x=code, y=inllsb] {\skyw};
+  \addlegendentry{Linearity (INL): vs.\ endpoint line}
+  \addplot[green!50!black, thick, mark=triangle*, mark size=2pt] table[x=code, y=dnllsb] {\skyw};
+  \addlegendentry{DNL: (step from $D$ to $D+1$) $-$ 1 LSB}
+\end{axis}
+\end{tikzpicture}
+
+\large Note the y-axis is $\pm 0.01\,\mathrm{LSB}$ ($\pm 0.42\,\mathrm{mV}$). Resistors are identical in this run; mismatch is assessed separately.
+\end{center}
+
+\end{document}

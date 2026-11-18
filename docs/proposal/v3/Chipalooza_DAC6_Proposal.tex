@@ -209,40 +209,46 @@ code vout errlsb inllsb
 62 2.915771 3.4553 0.0053
 63 2.957956 3.4089 0.0000
 }\dactt
-\begin{figure}[H]
-\centering
-\begin{tikzpicture}
-\begin{groupplot}[group style={group size=2 by 1, horizontal sep=18mm},
-    width=0.47\textwidth, height=4.3cm, xmin=-2, xmax=65,
-    xlabel={Code $D$}, tick label style={font=\footnotesize}, label style={font=\small},
-    xtick={0,16,32,48,63}]
-\nextgroupplot[ylabel={$V_{\mathrm{OUT}}$ (V)}, ymin=0, ymax=3.2,
-    legend style={font=\footnotesize, at={(0.03,0.97)}, anchor=north west, draw=none, fill=none}]
-  \addplot[only marks, mark=*, mark size=0.9pt] table[x=code, y=vout] {\dactt};
-  \addlegendentry{Simulated $V_{\mathrm{OUT}}$}
-  \addplot[red, dashed, domain=0:63] {0.3 + x*0.0421875};
-  \addlegendentry{Ideal line}
-  \addplot[blue, densely dotted, thick, domain=0:63] {0.300253 + x*(2.957956-0.300253)/63};
-  \addlegendentry{Endpoint line}
-  \node[font=\footnotesize, anchor=south east] at (axis cs:63,0.35) {$1\,\mathrm{LSB} = 42.19\,\mathrm{mV}$};
-\nextgroupplot[ylabel={Error ($10^{-3}$ LSB)}, ymin=-12, ymax=18,
-    legend style={font=\footnotesize, at={(0.5,0.97)}, anchor=north, draw=none, fill=none, legend columns=2}]
-  \addplot[red, mark=*, mark size=0.7pt] table[x=code, y=errlsb] {\dactt};
-  \addlegendentry{vs.\ ideal (accuracy)}
-  \addplot[blue, mark=square*, mark size=0.6pt] table[x=code, y=inllsb] {\dactt};
-  \addlegendentry{vs.\ endpoints (INL)}
-  \draw[gray] (axis cs:-2,0) -- (axis cs:65,0);
-\end{groupplot}
-\end{tikzpicture}
-
-\vspace{-1mm}
-{\small Accuracy $= +0.0078\,\mathrm{LSB}$ @ $D=10$ \quad Linearity (INL) $= -0.0082\,\mathrm{LSB}$ @ $D=48$ \quad DNL $= +0.0023\,\mathrm{LSB}$ @ $50 \to 51$ \quad Monotonic (min.\ step $42.11\,\mathrm{mV}$)}
-\captionsetup{skip=2pt}\caption*{\footnotesize Sky130 pre-layout simulation (pinned BSIM, poly-resistor and MIM models), TT corner, nominal supplies, $100\,\mathrm{k\Omega} \parallel 20\,\mathrm{pF}$ load. Resistors are identical in this run; mismatch is assessed separately.}
-\end{figure}
 \begin{itemize}
     \item \textbf{Remaining:} port to Xschem/ngspice and CACE for open-source sign-off; layout with dummies and common-centroid inputs; DRC, LVS and PEX re-simulation over PVT; combined mismatch/PVT; harness switch, pad and \vtap{} line models
     \item \textbf{Silicon:} 64-code sweep over SPI with references on a source/measure unit and a precision DMM (error, DNL, INL, monotonicity); \vtap{} vs.\ \vout{} to separate string and buffer errors; scope settling and glitches ($0 \leftrightarrow 63$, $31 \leftrightarrow 32$); $100\,\mathrm{k\Omega}$ and $1\,\mathrm{M\Omega}$ loads; supply, \ibias{} and temperature extremes
 \end{itemize}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[width=\textwidth, height=7.2cm, xmin=-1, xmax=64, xtick={0,8,...,56,63},
+    xlabel={Code $D$}, ylabel={$V_{\mathrm{OUT}}$ (V)}, ymin=0.2, ymax=3.1, ytick={0.3,0.6,...,3.0},
+    grid=both, grid style={gray!20}, tick label style={font=\small}, label style={font=\small},
+    legend cell align=left, legend style={font=\small, at={(0.02,0.97)}, anchor=north west, fill=white}]
+  \addplot[red, dashed, thick, domain=0:63] {0.3 + x*0.0421875};
+  \addlegendentry{Ideal line}
+  \addplot[blue, densely dotted, thick, domain=0:63] {0.300253 + x*(2.957956-0.300253)/63};
+  \addlegendentry{Endpoint line}
+  \addplot[only marks, mark=*, mark size=1.3pt] table[x=code, y=vout] {\dactt};
+  \addlegendentry{Simulated $V_{\mathrm{OUT}}$}
+  \node[font=\small, anchor=south east] at (axis cs:63,0.35) {$1\,\mathrm{LSB} = 42.19\,\mathrm{mV}$};
+\end{axis}
+\end{tikzpicture}
+
+\vspace{2mm}
+\begin{tikzpicture}
+\begin{axis}[width=\textwidth, height=7.2cm, xmin=-1, xmax=64, xtick={0,8,...,56,63},
+    xlabel={Code $D$}, ylabel={Error ($10^{-3}$ LSB)}, ymin=-10, ymax=10, ytick={-10,-8,...,10},
+    grid=both, grid style={gray!20}, tick label style={font=\small}, label style={font=\small},
+    legend cell align=left, legend style={font=\small, at={(0.02,0.03)}, anchor=south west, fill=white}]
+  \addplot[gray, thick, forget plot] coordinates {(-1,0) (64,0)};
+  \addplot[red, thick, mark=*, mark size=1.2pt] table[x=code, y=errlsb] {\dactt};
+  \addlegendentry{Accuracy: vs.\ ideal line}
+  \addplot[blue, thick, mark=square*, mark size=1.1pt] table[x=code, y=inllsb] {\dactt};
+  \addlegendentry{Linearity (INL): vs.\ endpoint line}
+\end{axis}
+\end{tikzpicture}
+
+\vspace{1mm}
+{\small Accuracy $= +0.0078\,\mathrm{LSB}$ @ $D=10$ \quad Linearity (INL) $= -0.0082\,\mathrm{LSB}$ @ $D=48$ \quad DNL $= +0.0023\,\mathrm{LSB}$ @ $50 \to 51$ \quad Monotonic (min.\ step $42.11\,\mathrm{mV}$)}
+\captionsetup{skip=3pt}\caption*{\footnotesize Sky130 pre-layout simulation (pinned BSIM, poly-resistor and MIM models), TT corner, nominal supplies, $100\,\mathrm{k\Omega} \parallel 20\,\mathrm{pF}$ load. Resistors are identical in this run; mismatch is assessed separately.}
+\end{figure}
 
 % ============================================================
 \section{Deliverables}

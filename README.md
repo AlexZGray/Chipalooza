@@ -1,1 +1,1 @@
-[](docs/proposal/v3/Chipalooza_DAC6_Proposal.md)
+docs/proposal/v3/Chipalooza_DAC6_Proposal.md

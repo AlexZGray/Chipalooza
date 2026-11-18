@@ -1,88 +1,56 @@
 # Sky130 buffered 6-bit resistor-string DAC
 
-A **pre-layout transistor design** using pinned SkyWater foundry BSIM models, physical poly-resistor models and a physical MIM-capacitor model. The integrated amplifier contains 23 MOS instance groups. All on-chip switches, level shifters, inverters and analogue components use Sky130 devices.
+**Open [DAC6_Sky130_Top.asc](DAC6_Sky130_Top.asc) in LTspice and click Run.** Download or clone the repository so the entire `sky130_dac6` folder stays together. Tested with LTspice 26.1.1 on macOS. The project uses standard LTspice symbols and bundled files with relative paths, so the same folder is intended for Windows and macOS. LTspice is the only required installation.
 
-**Start here:** open **[DAC6_Sky130_Top.asc](DAC6_Sky130_Top.asc)** in LTspice and select **Run**. The complete folder must stay together. No PDK installation, global symbol installation or Python package is needed to run the schematics. Verified with LTspice 26.1.1.
+Click **OUT** to plot the buffered output and **TAP** to plot the selected resistor tap. The first 6.4 ms cover all 64 codes in 100 µs slots. The rest of the run exercises large steps, the 31 → 32 carry and enable/reset. Read `out0` and `out63` in the **SPICE Error Log** for the two settled endpoints.
 
-Read the **[design calculations, buffer margin and measured results](docs/Design_Report.md)**. Model provenance, compatibility changes and licensing are in **[NOTICE.md](NOTICE.md)**.
+![Nominal LTspice run showing all 64 output codes and the rising full-range step into the half-LSB tolerance band](figures/nominal_response.png)
 
-## Examples
+At TT, 25 °C and 100 kΩ in parallel with 20 pF, the run gives **0.300253 V** at code 0 and **2.957956 V** at code 63. The nominal step is **42.1875 mV**. The minimum simulated step is **42.11259 mV**, and the worst measured settling time is **10.23 µs** into the ideal output ±½ LSB band. These are pre-layout results with nominal resistor matching and ideal testbench supplies and references.
 
-| Sheet | Purpose |
-|---|---|
-| [DAC6_Sky130_Top.asc](DAC6_Sky130_Top.asc) | All 64 codes, major carries, large steps and reset; updates while enabled provide an additional stress test |
-| [DAC6_Sky130_Core.asc](DAC6_Sky130_Core.asc), [.asy](DAC6_Sky130_Core.asy) | Reusable DUT with the v2 proposal's external ports; run it from a parent testbench |
-| [DAC6_Sky130_Integration.asc](DAC6_Sky130_Integration.asc) | The complete simulation using one reusable core instance |
-| [DAC6_Sky130_Tap_Probe.asc](DAC6_Sky130_Tap_Probe.asc) | Nominal 64-code test with an external 10 MΩ / 10 pF VTAP probe |
-| [DAC6_Sky130_Protocol.asc](DAC6_Sky130_Protocol.asc) | All codes with EN low before changing data and at least 5 µs data setup before enable |
-| [DAC6_Sky130_Min_Supply.asc](DAC6_Sky130_Min_Supply.asc) | SS, 110 °C, VDDA 3.135 V, VDDD 1.71 V, 0.8 µA bias |
-| [DAC6_Sky130_Protocol_Min.asc](DAC6_Sky130_Protocol_Min.asc) | The same low-supply condition with the host protocol |
-| [DAC6_Sky130_Hot_Fast.asc](DAC6_Sky130_Hot_Fast.asc) | FF, 110 °C, high supplies and 1.2 µA bias |
-| [DAC6_Sky130_Cold_Skew.asc](DAC6_Sky130_Cold_Skew.asc) | SF, −40 °C, high analogue supply, low digital supply and low bias |
-| [DAC6_Sky130_Overload.asc](DAC6_Sky130_Overload.asc) | Intentional 1 kΩ overload; the output is expected to fail its voltage target |
-| [Buffer_Step.asc](Buffer_Step.asc) | Standalone physical buffer, full-scale steps into 100 kΩ / 20 pF |
-| [Buffer_Range.asc](Buffer_Range.asc) | Slow excursion to both rails, showing where tracking fails |
-| [Buffer_DC.asc](Buffer_DC.asc), [Buffer_DC_Low.asc](Buffer_DC_Low.asc) | DC sweeps starting at the middle operating point |
-| [Buffer_AC.asc](Buffer_AC.asc), [Buffer_AC_Worst.asc](Buffer_AC_Worst.asc) | Loop gain at nominal and a combined MOS/RC corner |
+## Change the test on the same sheet
 
-Right-click a block to open its child schematic. The default waveform profile plots the tap, buffer input, output and digital controls. Plot `-V(out)/V(fb)` in the AC examples to obtain loop gain, including its phase. `V(out)` alone in that test is the response to the feedback injection source.
+Right-click the two `.param` lines at the bottom of the top sheet to edit the supply voltages (`AVDD`, `DVDD`), bias current (`IREF`), temperature in °C (`TEMP_C`), reference voltages (`REF_L`, `REF_H`), and output load (`RL`, `CL`). `DVDD` also sets the high level of the digital inputs. The reference settings default to 0.3 V and 3.0 V.
 
-## Change conditions
+To change the MOS corner, replace the file in the `.include models/sky130_tt.lib` directive. Keep one corner include active. The bundled suffixes are `tt`, `ss`, `ff`, `sf` and `fs`. The adapter include and temperature directives should stay in place.
 
-Edit the parameters on a top-level sheet. Device-wrapper dimensions are numbers in micrometres, for example `w=7 l=8`; the adapters perform the SI conversion. `TEMP_C` controls both `.temp` and `PDK_TEMP`; keep these linked because the portable resistor expressions use the latter. Resistor temperature coefficients retain the native model's 27 °C default nominal temperature; MOS cards retain their own nominal temperature.
+| Example | Model | AVDD | DVDD | IREF | TEMP_C | RL | CL |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Nominal | TT | 3.3 | 1.8 | `1u` | 25 | `100k` | `20p` |
+| Hot, low supply | SS | 3.135 | 1.71 | `0.8u` | 110 | `100k` | `20p` |
+| Hot, high supply | FF | 3.465 | 1.89 | `1.2u` | 110 | `100k` | `20p` |
+| Cold stress test | SF | 3.465 | 1.71 | `0.8u` | −40 | `100k` | `20p` |
+| Deliberate overload | TT | 3.3 | 1.8 | `1u` | 25 | `1k` | `20p` |
 
-Change the `.include models/sky130_tt.lib` directive to select `tt`, `ff`, `ss`, `fs` or `sf`. The supplied corner examples select their own model file. Their PWL files also use the corresponding digital voltage; changing `DVDD` alone does not rescale a file-based stimulus. The `stimulus/1p71` and `stimulus/1p89` folders provide the two endpoint levels.
+- **Mask updates with EN.** Change the file on the `VEN` voltage source from `stimulus/enable.txt` to `stimulus/enable_masked.txt` and keep `VALUE_SCALE_FACTOR={DVDD}`. This holds EN low while the code changes and gives the data 5 µs to settle before enabling. The first enable edge at startup begins at 20 µs.
+- **Test loading on TAP.** Connect a 10 MΩ resistor and a 10 pF capacitor from TAP to ground to represent a passive probe.
+- **Try the deliberate overload.** With `RL=1k`, code 63 is expected to fall well short of its 2.958 V ideal output because the buffer cannot supply the required current.
 
-The amplifier's `mult` values represent parallel **7 µm unit fingers**, with the displayed length. Keep that geometry when laying out the design; replacing a finger bank by one very wide transistor can select a different model bin and changes matching and parasitics.
+## Read the circuit
 
-## Reproduce the checks
+Right-click **XCORE** to open the core. Inside it, follow the signal from the resistor string through the enable selector to the output buffer. Right-click each block to open its sheet.
 
-After running the main sheet, a standard-library-only checker verifies its measured behaviour:
+| Block | What it does |
+| --- | --- |
+| Control | Level shifts D0–D5 and EN from the logic supply to complementary analogue-domain controls. |
+| Resistor string and selector | Divides the reference span into 64 intervals. The six-bit transmission-gate tree selects taps 0–63. |
+| Enable selector | Sends TAP to the buffer when enabled and VREFL when disabled. |
+| Buffer | A unity-gain amplifier with complementary input pairs, a bias mirror, and a Miller-compensated output stage. Its purpose is to drive the load without pulling current directly from the selected tap. |
 
-```sh
-python3 verify_results.py
-```
+## What to keep
 
-Run the four normal/corner examples, the overload and the two protocol examples, then check the complete LTspice transient set:
+| File or folder | Purpose |
+| --- | --- |
+| `DAC6_Sky130_Top.asc` | The single testbench to open and run. |
+| `blocks/` | The child `.asc` schematics and their matching `.asy` symbols. Both are needed for LTspice to resolve the hierarchy. |
+| `models/` | The bundled Sky130 BSIM and passive models, LTspice adapters, and upstream licence. The top sheet selects the active model library. |
+| `stimulus/` | The time and 0/1 level pairs read by the digital sources. LTspice scales the levels to `DVDD`. These files are simulation inputs. |
+| `figures/` | Documentation image. |
 
-```sh
-python3 verify_results.py --all --protocol
-```
+LTspice generates waveforms, logs and netlists locally. This folder can be run without Python, a separate PDK, or custom LTspice search paths.
 
-After also running Integration and Tap_Probe, append `--integration` to check them and compare the reusable core's output against the architecture sheet.
+## Model provenance
 
-The [reference measurements](results/reference_ltspice.json) and [code-by-code data](results/reference_Top_codes.csv) are committed. Checkers write separate `latest*` files.
+The device cards come from the [SkyWater primitive device library at commit `29b5515`](https://github.com/fossi-foundation/skywater-pdk-libs-sky130_fd_pr/tree/29b55153fd9f4badef05a02667184b81789d1f61), under the [Apache 2.0 licence](models/LICENSE). The includes are flattened for portability. The adapter keeps schematic dimensions in micrometres, converts to the units used by LTspice, and implements parallel device multiplicity. Resistor temperature expressions use `PDK_TEMP`, set from `TEMP_C`. The physical implementation still needs parasitic extraction and pad, harness and mismatch verification.
 
-The Top and Integration sheets were also run from a fresh package extracted into a folder with spaces in its name. [The portability check](results/reference_portability.json) records their passing measurements and hashes of the 132 runnable input files.
-
-For the **540-point LTspice stability matrix**, open and run the 25 `validation/LT_AC_*.cir` files. Each has one AC analysis and a parameter step. The matrix uses LTspice's alternate solver (`solver=alt`). Install the optional Python dependencies and check the resulting RAW files:
-
-```sh
-python3 -m pip install -r validation/requirements.txt
-python3 validation/analyse_lt_ac.py
-```
-
-The matrix models retain the original foundry cards for the geometries used by the buffer. This speeds parameter stepping. The full DAC uses the complete selected-family libraries. To rebuild the matrix files after changing the model set:
-
-```sh
-python3 tools/make_ac_matrices.py
-```
-
-Additional cross-checks use ngspice, including 85 slow range tests, 120 midpoint AC tests, 60 midpoint RC-corner tests and independent 100-seed amplifier/string mismatch screens:
-
-```sh
-python3 validation/run_checks.py --suite all
-python3 validation/check_rc_settling.py
-```
-
-The mismatch screen resets the circuit after setting each seed, then samples amplifier codes after 80 µs in a 100 µs dwell. This keeps parameter randomisation reproducible and separates static matching from the dedicated timing tests.
-
-Use `--ngspice /path/to/ngspice` if it is not on the search path. `--runs` changes the mismatch sample count. The ngspice AC screen intentionally uses the middle input; the LTspice matrix covers all three selected input levels. Generated simulations stay in `validation/.work`.
-
-## Scope
-
-The [core interface](interface.json) follows proposal v2: D5–D0 and EN, three shared analogue signals VREFH/VREFL/VTAP, one requested dedicated VOUT pad, and a 1 µA bias. It allocates no digital status output. EN_MON is an internal inspection node. In the testbenches, `TAP` and `OUT` denote VTAP and VOUT. The optional masked-update examples supplement the enabled code-change tests; masking is not required.
-
-The supplies, external references, external harness bias, input patterns, board decoupling and specified output load are test fixtures. They are intentionally ideal. The shared-reference harness switches are outside the model; their voltage drop is unverified. The on-chip circuit contains no generic MOS model, ideal switch or op-amp macromodel.
-
-This is an implementation for pre-layout design and review. Pad/ESD behaviour, extracted interconnect and well parasitics, actual harness supply/bias models, power sequencing, combined statistical yield and physical slot fit still require qualification. The [report](docs/Design_Report.md) distinguishes measured results from provisional design allowances.
+The [earlier design report and independent buffer checks](https://github.com/AlexZGray/Chipalooza/tree/a1599b5/ltspice/sky130_dac6) remain in Git history.

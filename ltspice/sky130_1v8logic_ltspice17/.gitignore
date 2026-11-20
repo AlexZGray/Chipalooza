@@ -1,0 +1,11 @@
+# LTspice creates these beside the schematic when it runs.
+*.raw
+*.log
+*.net
+*.plt
+*.db
+*.sqlite
+*.bak
+*.bck
+*.asc~
+*.asy~

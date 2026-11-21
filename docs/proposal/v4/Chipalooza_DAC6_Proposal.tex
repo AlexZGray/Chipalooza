@@ -241,15 +241,12 @@ code vout errlsb inllsb dnllsb
   \addplot[green!50!black, thick, mark=triangle*, mark size=1.5pt, unbounded coords=jump] table[x=code, y=dnllsb] {\dactt};
   \addlegendentry{DNL: step from $D$ to $D+1$, minus 1 LSB}
   % Error-table values and axis coordinates are in 10^{-3} LSB.
-  \node[font=\footnotesize, text=red, fill=white, inner sep=2pt, align=left, anchor=west] (accnote) at (axis cs:20,150)
-    {Accuracy $+0.113\,\mathrm{LSB}$\\at $D=0$ ($3.19\,\mathrm{mV}$ floor)};
-  \draw[red, line width=0.5pt] (accnote.west) -- (axis cs:0,113.4);
-  \node[font=\footnotesize, text=blue, fill=white, inner sep=2pt, align=left, anchor=west] (inlnote) at (axis cs:20,-170)
-    {INL $-0.134\,\mathrm{LSB}$\\at $D=2$};
-  \draw[blue, line width=0.5pt] (inlnote.west) -- (axis cs:2,-133.8);
-  \node[font=\footnotesize, text=green!50!black, fill=white, inner sep=2pt, align=left, anchor=west] (dnlnote) at (axis cs:20,-110)
-    {DNL $-0.131\,\mathrm{LSB}$\\at $0\to1$};
-  \draw[green!50!black, line width=0.5pt] (dnlnote.west) -- (axis cs:0,-131.1);
+  \node[font=\footnotesize, text=red, align=left, anchor=west] at (axis cs:1.2,113)
+    {Accuracy $+0.113\,\mathrm{LSB}$ at $D=0$ ($3.19\,\mathrm{mV}$ floor)};
+  \node[font=\footnotesize, text=green!50!black, align=left, anchor=west] at (axis cs:2,-62)
+    {DNL $-0.131\,\mathrm{LSB}$ at $0\to1$};
+  \node[font=\footnotesize, text=blue, align=left, anchor=west] at (axis cs:3,-160)
+    {INL $-0.134\,\mathrm{LSB}$ at $D=2$};
 \end{axis}
 \end{tikzpicture}
 

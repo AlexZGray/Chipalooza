@@ -1,0 +1,14 @@
+# Project xschemrc: source the Sky130 PDK xschemrc, then add this folder.
+if { ![info exists env(PDK_ROOT)] } {
+  puts stderr "PDK_ROOT is not set; set it to the folder that holds sky130A"
+}
+if { ![info exists env(PDK)] } {
+  set ::env(PDK) sky130A
+}
+if {![info exists PDK]} {
+    source $env(PDK_ROOT)/$env(PDK)/libs.tech/xschem/xschemrc
+}
+append XSCHEM_LIBRARY_PATH :[file dirname [file normalize [info script]]]
+# CACE asks for a .subckt wrapper around the top cell with "set top_is_subckt 1".
+# xschem 3.4.4 does not know that variable; lvs_netlist gives the same wrapper.
+set lvs_netlist 1

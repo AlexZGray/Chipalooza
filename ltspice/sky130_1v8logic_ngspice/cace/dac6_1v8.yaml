@@ -1,0 +1,657 @@
+#--------------------------------------------------------------
+# CACE circuit characterization file
+#--------------------------------------------------------------
+
+name: dac6_1v8
+description: 6-bit resistor-string DAC with rail-to-rail unity-gain buffer, single 1.8 V supply
+commit: N/A
+PDK: sky130A
+cace_format: 5.2
+
+authorship:
+  designer: ICARUS Team 4 (Flatline)
+  company: Imperial College London
+  creation_date: November 25, 2026
+  license: Apache 2.0
+
+paths:
+  root: ..
+  documentation: docs
+  schematic: xschem
+  netlist: netlist
+  templates: cace/templates
+  scripts: cace/scripts
+  runs: runs
+
+pins:
+  D5:0:
+    description: Data code, D5 is the MSB
+    type: digital
+    direction: input
+    Vmin: VSS - 0.3
+    Vmax: VDDA + 0.3
+  EN:
+    description: Enable (low connects the buffer input to VREFL)
+    type: digital
+    direction: input
+    Vmin: VSS - 0.3
+    Vmax: VDDA + 0.3
+  VREFH:
+    description: Top of the resistor string, tied to VDDA
+    type: signal
+    direction: input
+    Vmin: VREFL
+    Vmax: VDDA
+  VREFL:
+    description: Bottom of the resistor string, tied to VSS
+    type: signal
+    direction: input
+    Vmin: VSS
+    Vmax: VREFH
+  IBIAS:
+    description: Bias current input, 1 µA into the pin
+    type: signal
+    direction: input
+  VTAP:
+    description: Unbuffered tap of the resistor string
+    type: signal
+    direction: output
+    Vmin: VREFL
+    Vmax: VREFH
+  VOUT:
+    description: Buffered DAC output
+    type: signal
+    direction: output
+    Vmin: VSS
+    Vmax: VDDA
+  VDDA:
+    description: 1.8 V supply for logic, string and buffer
+    type: power
+    direction: inout
+    Vmin: 1.71
+    Vmax: 1.89
+  VSS:
+    description: Ground
+    type: ground
+    direction: inout
+    Vmin: -0.3
+    Vmax: 0.3
+
+default_conditions:
+  Vvdd:
+    description: Supply voltage (VDDA, logic high and VREFH)
+    display: VDDA
+    unit: V
+    typical: 1.8
+  Ibias:
+    description: Bias current into IBIAS
+    display: IBIAS
+    unit: µA
+    typical: 1.0
+  Rload:
+    description: Output load resistance
+    display: RLoad
+    unit: kΩ
+    typical: 100
+  Cload:
+    description: Output load capacitance
+    display: CLoad
+    unit: pF
+    typical: 20
+  ena:
+    description: Enable input level (1 = high)
+    display: EN
+    typical: 1
+  b[5:0]:
+    description: DAC input code
+    display: D[5:0]
+    typical: 0b100000
+  Vin:
+    description: Buffer input voltage (loop-gain test)
+    display: Vin
+    unit: V
+    typical: 0.9
+  Tstop:
+    description: Transient stop time
+    display: Tstop
+    unit: µs
+    typical: 30
+  temperature:
+    description: Ambient temperature
+    display: Temp
+    unit: °C
+    minimum: -20
+    typical: 25
+    maximum: 110
+  corner:
+    description: Process corner
+    display: Corner
+    typical: tt
+
+parameters:
+  # ---------------------------------------------------------------- static, nominal
+  static_nominal:
+    description: Transfer function, INL, DNL and error at TT and 25 °C for the three supply voltages
+    display: Static (TT, 25 °C)
+    spec:
+      error:
+        display: Absolute error (TT)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        typical:
+          value: 0
+        maximum:
+          value: 0.5
+          fail: true
+      inl:
+        display: INL (TT)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        typical:
+          value: 0
+        maximum:
+          value: 0.5
+          fail: true
+      dnl:
+        display: DNL (TT)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        typical:
+          value: 0
+        maximum:
+          value: 0.5
+          fail: true
+    tool:
+      ngspice:
+        template: static_staircase.sch
+        format: ascii
+        suffix: .data
+        variables: [time, vcode, vout, vtap, idd, istring]
+        script: static.py
+        script_variables: [code, vout_code, error, inl, code_lower, dnl, min_step, zero_error, full_scale_error, gain_error, unsettled, buffer_offset, iref, idd_total]
+    plot:
+      transfer_function:
+        xaxis: code
+        yaxis: vout_code
+      error_per_code:
+        xaxis: code
+        yaxis: error
+      inl:
+        xaxis: code
+        yaxis: inl
+      dnl:
+        xaxis: code_lower
+        yaxis: dnl
+      buffer_offset:
+        xaxis: code
+        yaxis: buffer_offset
+    variables:
+      code:
+        display: Code
+      code_lower:
+        display: Lower code of step
+      vout_code:
+        display: VOUT
+        unit: V
+      error:
+        display: Absolute error
+        unit: LSB
+      inl:
+        display: INL
+        unit: LSB
+      dnl:
+        display: DNL
+        unit: LSB
+      buffer_offset:
+        display: VOUT - VTAP
+        unit: mV
+    conditions:
+      Vvdd:
+        minimum: 1.71
+        typical: 1.8
+        maximum: 1.89
+      corner:
+        typical: tt
+      temperature:
+        typical: 25
+
+  # ---------------------------------------------------------------- static, PVT
+  static_pvt:
+    description: Static accuracy over process corner, supply and temperature (IBIAS = 1 µA)
+    display: Static (PVT)
+    spec:
+      error:
+        display: Absolute error (PVT)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        maximum:
+          value: 0.5
+          fail: true
+      inl:
+        display: INL (PVT)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        maximum:
+          value: 0.5
+          fail: true
+      dnl:
+        display: DNL (PVT)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        maximum:
+          value: 0.5
+          fail: true
+      min_step:
+        display: Smallest code step (monotonic if > 0)
+        unit: mV
+        minimum:
+          value: 0
+          fail: true
+        typical:
+          value: 28.125
+      zero_error:
+        display: Zero-code error (code 0)
+        unit: LSB
+        minimum:
+          value: any
+        maximum:
+          value: 0.5
+          fail: true
+      full_scale_error:
+        display: Full-scale error (code 63)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        maximum:
+          value: 0.5
+          fail: true
+      gain_error:
+        display: Gain error (code 0 to 63 span)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        maximum:
+          value: 0.5
+          fail: true
+      unsettled:
+        display: Staircase check, last-2-µs drift
+        unit: LSB
+        maximum:
+          value: 0.05
+          fail: true
+      buffer_offset:
+        display: Buffer offset, VOUT - VTAP
+        unit: mV
+        minimum:
+          value: any
+        maximum:
+          value: any
+      iref:
+        display: String current IREF
+        unit: µA
+        maximum:
+          value: 40
+          fail: true
+      idd_total:
+        display: Static supply current (incl. IREF)
+        unit: µA
+        maximum:
+          value: 500
+          fail: true
+    tool:
+      ngspice:
+        template: static_staircase.sch
+        format: ascii
+        suffix: .data
+        variables: [time, vcode, vout, vtap, idd, istring]
+        script: static.py
+        script_variables: [code, vout_code, error, inl, code_lower, dnl, min_step, zero_error, full_scale_error, gain_error, unsettled, buffer_offset, iref, idd_total]
+    plot:
+      inl_pvt:
+        xaxis: code
+        yaxis: inl
+      dnl_pvt:
+        xaxis: code_lower
+        yaxis: dnl
+    variables:
+      code:
+        display: Code
+      code_lower:
+        display: Lower code of step
+      inl:
+        display: INL
+        unit: LSB
+      dnl:
+        display: DNL
+        unit: LSB
+    conditions:
+      Vvdd:
+        minimum: 1.71
+        typical: 1.8
+        maximum: 1.89
+      corner:
+        enumerate: [tt, ss, ff, sf, fs]
+      temperature:
+        minimum: -20
+        typical: 25
+        maximum: 110
+
+  # ---------------------------------------------------------------- bias current range
+  static_ibias:
+    description: Static accuracy for IBIAS at the ends of its range, all corners, 25 °C
+    display: Static (IBIAS 0.8 to 1.2 µA)
+    spec:
+      error:
+        display: Absolute error (IBIAS range)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        maximum:
+          value: 0.5
+          fail: true
+      inl:
+        display: INL (IBIAS range)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        maximum:
+          value: 0.5
+          fail: true
+      idd_total:
+        display: Supply current (IBIAS range)
+        unit: µA
+        maximum:
+          value: 500
+          fail: true
+    tool:
+      ngspice:
+        template: static_staircase.sch
+        format: ascii
+        suffix: .data
+        variables: [time, vcode, vout, vtap, idd, istring]
+        script: static.py
+        script_variables: [code, vout_code, error, inl, code_lower, dnl, min_step, zero_error, full_scale_error, gain_error, unsettled, buffer_offset, iref, idd_total]
+    conditions:
+      Ibias:
+        minimum: 0.8
+        maximum: 1.2
+      corner:
+        enumerate: [tt, ss, ff, sf, fs]
+      temperature:
+        typical: 25
+
+  # ---------------------------------------------------------------- Monte Carlo
+  static_mc:
+    description: Static accuracy with device mismatch (Monte Carlo, TT, 25 °C)
+    display: Static (Monte Carlo)
+    spec:
+      inl:
+        display: INL (Monte Carlo)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        maximum:
+          value: 0.5
+          fail: true
+      dnl:
+        display: DNL (Monte Carlo)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        maximum:
+          value: 0.5
+          fail: true
+      error:
+        display: Absolute error (Monte Carlo)
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        maximum:
+          value: 0.5
+          fail: true
+      buffer_offset:
+        display: Buffer offset (Monte Carlo)
+        unit: mV
+        minimum:
+          value: any
+        maximum:
+          value: any
+    tool:
+      ngspice:
+        template: static_staircase.sch
+        format: ascii
+        suffix: .data
+        variables: [time, vcode, vout, vtap, idd, istring]
+        script: static.py
+        script_variables: [code, vout_code, error, inl, code_lower, dnl, min_step, zero_error, full_scale_error, gain_error, unsettled, buffer_offset, iref, idd_total]
+    conditions:
+      iterations:
+        description: Monte Carlo iteration
+        display: Iteration
+        minimum: 1
+        maximum: 30
+        step: linear
+        stepsize: 1
+      corner:
+        typical: mc
+      temperature:
+        typical: 25
+
+  # ---------------------------------------------------------------- EN low
+  disabled:
+    description: Output and supply current with EN low (buffer input switched to VREFL)
+    display: EN low
+    spec:
+      vout_en:
+        display: Output with EN low
+        unit: mV
+        maximum:
+          value: 14
+          fail: true
+      idd_total:
+        display: Supply current with EN low
+        unit: µA
+        maximum:
+          value: any
+    tool:
+      ngspice:
+        template: dc_op.sch
+        format: ascii
+        suffix: .data
+        variables: [null, vout, idd, istring]
+        script: dc_point.py
+        script_variables: [vout_en, idd_total]
+    conditions:
+      ena:
+        typical: 0
+      b[5:0]:
+        minimum: 0b000000
+        maximum: 0b111111
+      corner:
+        enumerate: [tt, ss, ff, sf, fs]
+      temperature:
+        minimum: -20
+        typical: 25
+        maximum: 110
+
+  # ---------------------------------------------------------------- settling
+  settling:
+    description: Settling to +-0.5 LSB after a code step (b to 63 - b) into 100 kΩ || 20 pF
+    display: Settling
+    spec:
+      settling_time:
+        display: Settling time, +-0.5 LSB
+        unit: µs
+        maximum:
+          value: 20
+          fail: true
+      slew_rate:
+        display: Slew rate, full-scale step (10-90 %)
+        unit: V/µs
+        minimum:
+          value: any
+        maximum:
+          value: any
+      overshoot:
+        display: Overshoot or glitch past final value
+        unit: mV
+        maximum:
+          value: any
+      final_error:
+        display: Error at end of step test
+        unit: LSB
+        minimum:
+          value: -0.5
+          fail: true
+        maximum:
+          value: 0.5
+          fail: true
+    tool:
+      ngspice:
+        template: tran_step.sch
+        format: ascii
+        suffix: .data
+        variables: [time, vout, idd]
+        script: settling.py
+        script_variables: [settling_time, slew_rate, overshoot, final_error]
+    conditions:
+      b[5:0]:
+        enumerate: [0b000000, 0b111111, 0b011111, 0b100000]
+      Tstop:
+        typical: 30
+      corner:
+        enumerate: [tt, ss, ff, sf, fs]
+      temperature:
+        minimum: -20
+        typical: 25
+        maximum: 110
+
+  step_waveform:
+    description: Output waveform for the four code steps at TT, 25 °C (graph made by tools/make_plots.py)
+    display: Step waveform
+    tool:
+      ngspice:
+        template: tran_step.sch
+        format: ascii
+        suffix: .data
+        variables: [time, vout, idd]
+    conditions:
+      b[5:0]:
+        enumerate: [0b000000, 0b111111, 0b011111, 0b100000]
+      Tstop:
+        typical: 30
+      corner:
+        typical: tt
+      temperature:
+        typical: 25
+
+  # ---------------------------------------------------------------- buffer loop
+  loop_gain:
+    description: Buffer loop gain (loop broken at INM) with 100 kΩ || 20 pF load
+    display: Buffer loop
+    spec:
+      dc_gain:
+        display: DC loop gain
+        unit: dB
+        minimum:
+          value: any
+      ugf:
+        display: Unity-gain frequency
+        unit: MHz
+        minimum:
+          value: any
+      phase_margin:
+        display: Phase margin
+        unit: °
+        minimum:
+          value: 45
+          fail: true
+      gain_margin:
+        display: Gain margin
+        unit: dB
+        minimum:
+          value: 10
+          fail: true
+    tool:
+      ngspice:
+        template: ac_loop.sch
+        format: ascii
+        suffix: .data
+        variables: [frequency, lg_db, lg_ph]
+        script: loop_gain.py
+        script_variables: [dc_gain, ugf, phase_margin, gain_margin, loop_phase]
+    variables:
+      frequency:
+        display: Frequency
+        unit: Hz
+    conditions:
+      Vin:
+        enumerate: [0.028, 0.9, 1.772]
+      corner:
+        enumerate: [tt, ss, ff, sf, fs]
+      temperature:
+        minimum: -20
+        typical: 25
+        maximum: 110
+
+  # ---------------------------------------------------------------- supply rejection
+  psrr:
+    description: Rejection of VDDA ripple at the output, references held fixed, code 32
+    display: PSRR
+    spec:
+      psrr_dc:
+        display: PSRR at 10 Hz
+        unit: dB
+        minimum:
+          value: any
+      psrr_10k:
+        display: PSRR at 10 kHz
+        unit: dB
+        minimum:
+          value: any
+      psrr_1m:
+        display: PSRR at 1 MHz
+        unit: dB
+        minimum:
+          value: any
+    tool:
+      ngspice:
+        template: psrr.sch
+        format: ascii
+        suffix: .data
+        variables: [frequency, psrr]
+        script: psrr.py
+        script_variables: [psrr_dc, psrr_10k, psrr_1m]
+    variables:
+      frequency:
+        display: Frequency
+        unit: Hz
+      psrr:
+        display: PSRR
+        unit: dB
+    conditions:
+      b[5:0]:
+        typical: 0b100000
+      corner:
+        enumerate: [tt, ss, ff, sf, fs]
+      temperature:
+        typical: 25
